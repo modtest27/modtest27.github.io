@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content Management on Hugo</title><link>https://gohugo.io/categories/content-management/</link><description>Recent content in Content Management on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/content-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Content organization</title><link>https://gohugo.io/content-management/organization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/organization/</guid><description>&lt;h2 id="page-bundles">Page bundles &lt;a class="header-link" href="#page-bundles">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo &lt;code>0.32&lt;/code> announced page-relative images and other resources packaged into &lt;code>Page Bundles&lt;/code>.&lt;/p>
+&lt;p>These terms are connected, and you also need to read about &lt;a href="https://gohugo.io/content-management/page-resources/">Page Resources&lt;/a> and &lt;a href="https://gohugo.io/content-management/image-processing/">Image Processing&lt;/a> to get the full picture.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">content/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── blog/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── hugo-is-cool/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── images/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ │ ├── funnier-cat.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ │ └── funny-cat.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── cats-info.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ └── index.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── posts/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── post1.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ └── post2.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── 1-landscape.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── 2-sunset.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── _index.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── content-1.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── content-2.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── 1-logo.png
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── _index.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The file tree above shows three bundles. Note that the home page bundle cannot contain other content pages, although other files (images etc.) are allowed.&lt;/p></description></item><item><title>Page bundles</title><link>https://gohugo.io/content-management/page-bundles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/page-bundles/</guid><description>&lt;h2 id="introduction">Introduction &lt;a class="header-link" href="#introduction">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>A page bundle is a directory that encapsulates both content and associated resources.&lt;/p>
+&lt;p>By way of example, this site has an &amp;ldquo;about&amp;rdquo; page and a &amp;ldquo;privacy&amp;rdquo; page:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">content/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── about/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── index.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── welcome.jpg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── privacy.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &amp;ldquo;about&amp;rdquo; page is a page bundle. It logically associates a resource with content by bundling them together. Resources within a page bundle are &lt;a href="https://gohugo.io/content-management/page-resources/">page resources&lt;/a>, accessible with the &lt;a href="https://gohugo.io/methods/page/resources/">&lt;code>Resources&lt;/code>&lt;/a> method on the &lt;code>Page&lt;/code> object.&lt;/p></description></item><item><title>Content formats</title><link>https://gohugo.io/content-management/formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/formats/</guid><description>&lt;h2 id="introduction">Introduction &lt;a class="header-link" href="#introduction">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>You may mix content formats throughout your site. For example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">content/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── posts/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── post-1.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── post-2.adoc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── post-3.org
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── post-4.pandoc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── post-5.rst
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── post-6.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Regardless of content format, all content must have &lt;a href="https://gohugo.io/content-management/front-matter/">front matter&lt;/a>, preferably including both &lt;code>title&lt;/code> and &lt;code>date&lt;/code>.&lt;/p></description></item><item><title>Front matter</title><link>https://gohugo.io/content-management/front-matter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/front-matter/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>The front matter at the top of each content file is metadata that:&lt;/p>
+&lt;ul>
+&lt;li>Describes the content&lt;/li>
+&lt;li>Augments the content&lt;/li>
+&lt;li>Establishes relationships with other content&lt;/li>
+&lt;li>Controls the published structure of your site&lt;/li>
+&lt;li>Determines template selection&lt;/li>
+&lt;/ul>
+&lt;p>Provide front matter using a serialization format, one of &lt;a href="https://www.json.org/" rel="external">JSON&lt;/a>, &lt;a href="https://toml.io/" rel="external">TOML&lt;/a>, or &lt;a href="https://yaml.org/" rel="external">YAML&lt;/a>. Hugo determines the front matter format by examining the delimiters that separate the front matter from the page content.&lt;/p></description></item><item><title>Build options</title><link>https://gohugo.io/content-management/build-options/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/build-options/</guid><description>&lt;p>Build options are stored in a reserved front matter object named &lt;code>build&lt;/code> with these defaults:&lt;/p>
+
+&lt;div class="code relative" id="content/example/index.md">
+ &lt;div class="code-nav flex flex-nowrap items-stretch">
+ &lt;div class="san-serif f6 dib lh-solid pl2 pv2 mr2">
+ content/example/index.md
+ &lt;/div>
+ &lt;button
+ data-toggle-tab="yaml"
+ class="tab-button active ba san-serif f6 dib lh-solid ph2 pv2">
+ yaml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="toml"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ toml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="json"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ json
+ &lt;/button>
+ &amp;nbsp;
+ &lt;/div>
+ &lt;div class="tab-content">
+ &lt;div
+ data-pane="yaml"
+ class="code-copy-content nt3 tab-pane active">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">list&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">always&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publishResources&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">render&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">always&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c">---&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="toml"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="c">+++&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">build&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">list&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;always&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">publishResources&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">render&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;always&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">+++&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="json"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;build&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;list&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;always&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;publishResources&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;render&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;always&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;dl>
+&lt;dt>list&lt;/dt>
+&lt;dd>When to include the page within page collections. Specify one of:
+&lt;ul>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>always&lt;/code>&lt;/dt>
+&lt;dd>Include the page in &lt;em>all&lt;/em> page collections. For example, &lt;code>site.RegularPages&lt;/code>, &lt;code>.Pages&lt;/code>, etc. This is the default value.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>local&lt;/code>&lt;/dt>
+&lt;dd>Include the page in &lt;em>local&lt;/em> page collections. For example, &lt;code>.RegularPages&lt;/code>, &lt;code>.Pages&lt;/code>, etc. Use this option to create fully navigable but headless content sections.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>never&lt;/code>&lt;/dt>
+&lt;dd>Do not include the page in &lt;em>any&lt;/em> page collection.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dt>publishResources&lt;/dt>
+&lt;dd>Applicable to &lt;a href="https://gohugo.io/content-management/page-bundles/">page bundles&lt;/a>, determines whether to publish the associated &lt;a href="https://gohugo.io/content-management/page-resources/">page resources&lt;/a>. Specify one of:
+&lt;ul>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>true&lt;/code>&lt;/dt>
+&lt;dd>Always publish resources. This is the default value.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>false&lt;/code>&lt;/dt>
+&lt;dd>Only publish a resource when invoking its &lt;a href="https://gohugo.io/methods/resource/permalink/">&lt;code>Permalink&lt;/code>&lt;/a>, &lt;a href="https://gohugo.io/methods/resource/relpermalink/">&lt;code>RelPermalink&lt;/code>&lt;/a>, or &lt;a href="https://gohugo.io/methods/resource/publish/">&lt;code>Publish&lt;/code>&lt;/a> method within a template.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dt>render&lt;/dt>
+&lt;dd>When to render the page. Specify one of:
+&lt;ul>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>always&lt;/code>&lt;/dt>
+&lt;dd>Always render the page to disk. This is the default value.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>link&lt;/code>&lt;/dt>
+&lt;dd>Do not render the page to disk, but assign &lt;code>Permalink&lt;/code> and &lt;code>RelPermalink&lt;/code> values.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;li>
+&lt;dl>
+&lt;dt>&lt;code>never&lt;/code>&lt;/dt>
+&lt;dd>Never render the page to disk, and exclude it from all page collections.&lt;/dd>
+&lt;/dl>
+&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;/dl>
+
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>Any page, regardless of its build options, will always be available by using the &lt;a href="https://gohugo.io/methods/page/getpage/">&lt;code>.Page.GetPage&lt;/code>&lt;/a> or &lt;a href="https://gohugo.io/methods/site/getpage/">&lt;code>.Site.GetPage&lt;/code>&lt;/a> method.&lt;/p></description></item><item><title>Page resources</title><link>https://gohugo.io/content-management/page-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/page-resources/</guid><description>&lt;p>Page resources are only accessible from &lt;a href="https://gohugo.io/content-management/page-bundles/">page bundles&lt;/a>, those directories with &lt;code>index.md&lt;/code> or
+&lt;code>_index.md&lt;/code> files at their root. Page resources are only available to the
+page with which they are bundled.&lt;/p>
+&lt;p>In this example, &lt;code>first-post&lt;/code> is a page bundle with access to 10 page resources including audio, data, documents, images, and video. Although &lt;code>second-post&lt;/code> is also a page bundle, it has no page resources and is unable to directly access the page resources associated with &lt;code>first-post&lt;/code>.&lt;/p></description></item><item><title>Image processing</title><link>https://gohugo.io/content-management/image-processing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/image-processing/</guid><description>&lt;h2 id="image-resources">Image resources &lt;a class="header-link" href="#image-resources">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To process an image you must access the file as a page resource, global resource, or remote resource.&lt;/p>
+&lt;h3 id="page-resource">Page resource &lt;a class="header-link" href="#page-resource">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h3>
+&lt;p>A page resource is a file within a &lt;a href="https://gohugo.io/content-management/page-bundles/">page bundle&lt;/a>. A page bundle is a directory with an &lt;code>index.md&lt;/code> or &lt;code>_index.md&lt;/code> file at its root.&lt;/p></description></item><item><title>Shortcodes</title><link>https://gohugo.io/content-management/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/shortcodes/</guid><description>&lt;h2 id="what-a-shortcode-is">What a shortcode is &lt;a class="header-link" href="#what-a-shortcode-is">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code>&amp;lt;iframe&amp;gt;&lt;/code>&amp;rsquo;s) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p></description></item><item><title>Related content</title><link>https://gohugo.io/content-management/related/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/related/</guid><description>&lt;p>Hugo uses a set of factors to identify a page&amp;rsquo;s related content based on front matter parameters. This can be tuned to the desired set of indices and parameters or left to Hugo&amp;rsquo;s default &lt;a href="https://gohugo.io/content-management/related/#configure-related-content">Related Content configuration&lt;/a>.&lt;/p>
+&lt;h2 id="list-related-content">List related content &lt;a class="header-link" href="#list-related-content">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To list up to 5 related pages (which share the same &lt;em>date&lt;/em> or &lt;em>keyword&lt;/em> parameters) is as simple as including something similar to this partial in your template:&lt;/p></description></item><item><title>Sections</title><link>https://gohugo.io/content-management/sections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/sections/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>A section is a top-level content directory, or any content directory with an _index.md file. A content directory with an _index.md file is also known as a &lt;a href="https://gohugo.io/getting-started/glossary/#branch-bundle">branch bundle&lt;/a>. Section templates receive one or more page &lt;a href="https://gohugo.io/getting-started/glossary/#collection">collections&lt;/a> in &lt;a href="https://gohugo.io/getting-started/glossary/#context">context&lt;/a>.&lt;/p>
+
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>Although top-level directories without _index.md files are sections, we recommend creating _index.md files in &lt;em>all&lt;/em> sections.&lt;/p></description></item><item><title>Content types</title><link>https://gohugo.io/content-management/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/types/</guid><description>&lt;p>A &lt;strong>content type&lt;/strong> is a way to organize your content. Hugo resolves the content type from either the &lt;code>type&lt;/code> in front matter or, if not set, the first directory in the file path. E.g. &lt;code>content/blog/my-first-event.md&lt;/code> will be of type &lt;code>blog&lt;/code> if no &lt;code>type&lt;/code> is set.&lt;/p>
+&lt;p>A content type is used to&lt;/p>
+&lt;ul>
+&lt;li>Determine how the content is rendered. See &lt;a href="https://gohugo.io/templates/lookup-order/">Template Lookup Order&lt;/a> and &lt;a href="https://gohugo.io/templates/content-view/">Content Views&lt;/a> for more.&lt;/li>
+&lt;li>Determine which &lt;a href="https://gohugo.io/content-management/archetypes/">archetype&lt;/a> template to use for new content.&lt;/li>
+&lt;/ul></description></item><item><title>Archetypes</title><link>https://gohugo.io/content-management/archetypes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/archetypes/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>A content file consists of &lt;a href="https://gohugo.io/getting-started/glossary/#front-matter">front matter&lt;/a> and markup. The markup is typically Markdown, but Hugo also supports other &lt;a href="https://gohugo.io/getting-started/glossary/#content-format">content formats&lt;/a>. Front matter can be TOML, YAML, or JSON.&lt;/p>
+&lt;p>The &lt;code>hugo new content&lt;/code> command creates a new file in the &lt;code>content&lt;/code> directory, using an archetype as a template. This is the default archetype:&lt;/p></description></item><item><title>Taxonomies</title><link>https://gohugo.io/content-management/taxonomies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/taxonomies/</guid><description>&lt;h2 id="what-is-a-taxonomy">What is a taxonomy? &lt;a class="header-link" href="#what-is-a-taxonomy">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo includes support for user-defined groupings of content called &lt;strong>taxonomies&lt;/strong>. Taxonomies are classifications of logical relationships between content.&lt;/p>
+&lt;h3 id="definitions">Definitions &lt;a class="header-link" href="#definitions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h3>
+&lt;dl>
+&lt;dt>Taxonomy&lt;/dt>
+&lt;dd>a categorization that can be used to classify content&lt;/dd>
+&lt;dt>Term&lt;/dt>
+&lt;dd>a key within the taxonomy&lt;/dd>
+&lt;dt>Value&lt;/dt>
+&lt;dd>a piece of content assigned to a term&lt;/dd>
+&lt;/dl>
+&lt;h2 id="example-taxonomy-movie-website">Example taxonomy: movie website &lt;a class="header-link" href="#example-taxonomy-movie-website">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Let&amp;rsquo;s assume you are making a website about movies. You may want to include the following taxonomies:&lt;/p></description></item><item><title>Content summaries</title><link>https://gohugo.io/content-management/summaries/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/summaries/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Links and cross references</title><link>https://gohugo.io/content-management/cross-references/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/cross-references/</guid><description>&lt;p>The &lt;code>ref&lt;/code> and &lt;code>relref&lt;/code> shortcodes display the absolute and relative permalinks to a document, respectively.&lt;/p>
+&lt;h2 id="use-of-ref-and-relref">Use of &lt;code>ref&lt;/code> and &lt;code>relref&lt;/code> &lt;a class="header-link" href="#use-of-ref-and-relref">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>The &lt;code>ref&lt;/code> and &lt;code>relref&lt;/code> shortcodes require a single argument: the path to a content document, with or without a file extension, with or without an anchor. Paths without a leading &lt;code>/&lt;/code> are first resolved relative to the current page, then to the remainder of the site.&lt;/p></description></item><item><title>URL management</title><link>https://gohugo.io/content-management/urls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/urls/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>By default, when Hugo renders a page, the resulting URL matches the file path within the &lt;code>content&lt;/code> directory. For example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">content/posts/post-1.md → https://example.org/posts/post-1/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change the structure and appearance of URLs with front matter values and site configuration options.&lt;/p>
+&lt;h2 id="front-matter">Front matter &lt;a class="header-link" href="#front-matter">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;h3 id="slug">&lt;code>slug&lt;/code> &lt;a class="header-link" href="#slug">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h3>
+&lt;p>Set the &lt;code>slug&lt;/code> in front matter to override the last segment of the path. The &lt;code>slug&lt;/code> value does not affect section pages.&lt;/p></description></item><item><title>Menus</title><link>https://gohugo.io/content-management/menus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/menus/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To create a menu for your site:&lt;/p>
+&lt;ol>
+&lt;li>Define the menu entries&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/#menus">Localize&lt;/a> each entry&lt;/li>
+&lt;li>Render the menu with a &lt;a href="https://gohugo.io/templates/menu/">template&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Create multiple menus, either flat or nested. For example, create a main menu for the header, and a separate menu for the footer.&lt;/p></description></item><item><title>Comments</title><link>https://gohugo.io/content-management/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/comments/</guid><description>&lt;p>Hugo ships with support for &lt;a href="https://disqus.com/" rel="external">Disqus&lt;/a>, a third-party service that provides comment and community capabilities to websites via JavaScript.&lt;/p>
+&lt;p>Your theme may already support Disqus, but if not, it is easy to add to your templates via &lt;a href="https://gohugo.io/templates/embedded/#disqus">Hugo&amp;rsquo;s built-in Disqus partial&lt;/a>.&lt;/p>
+&lt;h2 id="add-disqus">Add Disqus &lt;a class="header-link" href="#add-disqus">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo comes with all the code you need to load Disqus into your templates. Before adding Disqus to your site, you&amp;rsquo;ll need to &lt;a href="https://disqus.com/profile/signup/" rel="external">set up an account&lt;/a>.&lt;/p></description></item><item><title>Multilingual mode</title><link>https://gohugo.io/content-management/multilingual/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/multilingual/</guid><description>&lt;h2 id="configure-languages">Configure languages &lt;a class="header-link" href="#configure-languages">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>This is the default language configuration:&lt;/p>
+
+&lt;div class="code relative" id="hugo">
+ &lt;div class="code-nav flex flex-nowrap items-stretch">
+ &lt;div class="san-serif f6 dib lh-solid pl2 pv2 mr2">
+ hugo.
+ &lt;/div>
+ &lt;button
+ data-toggle-tab="yaml"
+ class="tab-button active ba san-serif f6 dib lh-solid ph2 pv2">
+ yaml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="toml"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ toml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="json"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ json
+ &lt;/button>
+ &amp;nbsp;
+ &lt;/div>
+ &lt;div class="tab-content">
+ &lt;div
+ data-pane="yaml"
+ class="code-copy-content nt3 tab-pane active">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">languages&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">en&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">disabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">languageCode&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">languageDirection&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">languageName&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">weight&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="toml"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">languages&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="nx">languages&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">en&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">disabled&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">languageCode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">languageDirection&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">languageName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="json"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;languages&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;disabled&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;languageCode&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;languageDirection&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;languageName&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;title&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;weight&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>In the above, &lt;code>en&lt;/code> is the language key.&lt;/p></description></item><item><title>Markdown attributes</title><link>https://gohugo.io/content-management/markdown-attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/markdown-attributes/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo supports Markdown attributes on images and block elements including blockquotes, fenced code blocks, headings, horizontal rules, lists, paragraphs, and tables.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">This is a paragraph.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{class=&amp;#34;foo bar&amp;#34; id=&amp;#34;baz&amp;#34;}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>With &lt;code>class&lt;/code> and &lt;code>id&lt;/code> you can use shorthand notation:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">This is a paragraph.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{.foo .bar #baz}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo renders both of these to:&lt;/p></description></item><item><title>Syntax highlighting</title><link>https://gohugo.io/content-management/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/syntax-highlighting/</guid><description>&lt;p>Hugo uses &lt;a href="https://github.com/alecthomas/chroma" rel="external">Chroma&lt;/a> as its code highlighter; it is built in Go and is really, really fast.&lt;/p>
+&lt;h2 id="configure-syntax-highlighter">Configure syntax highlighter &lt;a class="header-link" href="#configure-syntax-highlighter">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>See &lt;a href="https://gohugo.io/getting-started/configuration-markup/#highlight">Configure Highlight&lt;/a>.&lt;/p>
+&lt;h2 id="generate-syntax-highlighter-css">Generate syntax highlighter CSS &lt;a class="header-link" href="#generate-syntax-highlighter-css">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>If you run with &lt;code>markup.highlight.noClasses=false&lt;/code> in your site configuration, you need a style sheet. The style sheet will override the style specified in &lt;a href="https://gohugo.io/functions/transform/highlight/#options">&lt;code>markup.highlight.style&lt;/code>&lt;/a>.&lt;/p></description></item><item><title>Diagrams</title><link>https://gohugo.io/content-management/diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/diagrams/</guid><description>&lt;h2 id="goat-diagrams-ascii">GoAT diagrams (ASCII) &lt;a class="header-link" href="#goat-diagrams-ascii">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo natively supports &lt;a href="https://github.com/bep/goat" rel="external">GoAT&lt;/a> diagrams with an &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/_markup/render-codeblock-goat.html" rel="external">embedded code block render hook&lt;/a>. This means that this code block:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">```goat
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> . . . .--- 1 .-- 1 / 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> / \ | | .---+ .-+ +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> / \ .---+---. .--+--. | &amp;#39;--- 2 | &amp;#39;-- 2 / \ 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> + + | | | | ---+ ---+ +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> / \ / \ .-+-. .-+-. .+. .+. | .--- 3 | .-- 3 \ / 3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> / \ / \ | | | | | | | | &amp;#39;---+ &amp;#39;-+ +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 1 2 3 4 1 2 3 4 1 2 3 4 &amp;#39;--- 4 &amp;#39;-- 4 \ 4
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">```
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Will be rendered as:&lt;/p></description></item><item><title>Mathematics in Markdown</title><link>https://gohugo.io/content-management/mathematics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/mathematics/</guid><description>&lt;a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href="https://github.com/gohugoio/hugo/releases/tag/v0.122.0">New in v0.122.0&lt;/a>
+\[
+\begin{aligned}
+KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
+JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+\]&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Mathematical equations and expressions authored in &lt;a href="https://www.latex-project.org/" rel="external">LaTeX&lt;/a> or &lt;a href="https://en.wikipedia.org/wiki/TeX" rel="external">TeX&lt;/a> are common in academic and scientific publications. Your browser typically renders this mathematical markup using an open-source JavaScript display engine such as &lt;a href="https://www.mathjax.org/" rel="external">MathJax&lt;/a> or &lt;a href="https://katex.org/" rel="external">KaTeX&lt;/a>.&lt;/p></description></item><item><title>Data sources</title><link>https://gohugo.io/content-management/data-sources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/data-sources/</guid><description>&lt;p>Hugo can access and &lt;a href="https://gohugo.io/getting-started/glossary/#unmarshal">unmarshal&lt;/a> local and remote data sources including CSV, JSON, TOML, YAML, and XML. Use this data to augment existing content or to create new content.&lt;/p>
+&lt;p>A data source might be a file in the data directory, a &lt;a href="https://gohugo.io/getting-started/glossary/#global-resource">global resource&lt;/a>, a &lt;a href="https://gohugo.io/getting-started/glossary/#page-resource">page resource&lt;/a>, or a &lt;a href="https://gohugo.io/getting-started/glossary/#remote-resource">remote resource&lt;/a>.&lt;/p>
+&lt;h2 id="data-directory">Data directory &lt;a class="header-link" href="#data-directory">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>The data directory in the root of your project may contain one or more data files, in either a flat or nested tree. Hugo merges the data files to create a single data structure, accessible with the &lt;code>Data&lt;/code> method on a &lt;code>Site&lt;/code> object.&lt;/p></description></item><item><title>Content adapters</title><link>https://gohugo.io/content-management/content-adapters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/content-management/content-adapters/</guid><description>&lt;a class="dib f5 fw6 ba bw1 b--gray ph2 mt1" href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0">New in v0.126.0&lt;/a>
+&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>A content adapter is a template that dynamically creates pages when building a site. For example, use a content adapter to create pages from a remote data source such as JSON, TOML, YAML, or XML.&lt;/p></description></item></channel></rss>

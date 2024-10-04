@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer Tools on Hugo</title><link>https://gohugo.io/categories/developer-tools/</link><description>Recent content in Developer Tools on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/developer-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Editor plugins</title><link>https://gohugo.io/tools/editors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/tools/editors/</guid><description>&lt;h2 id="visual-studio-code">Visual Studio Code &lt;a class="header-link" href="#visual-studio-code">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter" rel="external">Front Matter&lt;/a>&lt;/dt>
+&lt;dd>Once you go for a static site, you need to think about how you are going to manage your articles. Front matter is a tool that helps you maintain the metadata/front matter of your articles like: creation date, modified date, slug, tile, SEO check, and more.&lt;/dd>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=rusnasonov.vscode-hugo" rel="external">Hugo Helper&lt;/a>&lt;/dt>
+&lt;dd>Hugo Helper is a plugin for Visual Studio Code that has some useful commands for Hugo. The source code can be found &lt;a href="https://github.com/rusnasonov/vscode-hugo" rel="external">here&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=budparr.language-hugo-vscode" rel="external">Hugo Language and Syntax Support&lt;/a>&lt;/dt>
+&lt;dd>Hugo Language and Syntax Support is a Visual Studio Code plugin for Hugo syntax highlighting and snippets. The source code can be found &lt;a href="https://github.com/budparr/language-hugo-vscode" rel="external">here&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-hugo-themer" rel="external">Hugo Themer&lt;/a>&lt;/dt>
+&lt;dd>Hugo Themer is an extension to help you while developing themes. It allows you to easily navigate through your theme files.&lt;/dd>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=akmittal.hugofy" rel="external">Hugofy&lt;/a>&lt;/dt>
+&lt;dd>Hugofy is a plugin for Visual Studio Code to &amp;ldquo;make life easier&amp;rdquo; when developing with Hugo. The source code can be found &lt;a href="https://github.com/akmittal/hugofy-vscode" rel="external">here&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://github.com/NiklasPor/prettier-plugin-go-template" rel="external">Prettier Plugin for Go Templates&lt;/a>&lt;/dt>
+&lt;dd>Format Hugo templates using this &lt;a href="https://prettier.io/" rel="external">Prettier&lt;/a> plugin. See &lt;a href="https://discourse.gohugo.io/t/38403" rel="external">installation instructions&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://marketplace.visualstudio.com/items?itemName=kaellarkin.hugo-shortcode-syntax" rel="external">Syntax Highlighting for Hugo Shortcodes&lt;/a>&lt;/dt>
+&lt;dd>This extension adds some syntax highlighting for Shortcodes, making visual identification of individual pieces easier.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="emacs">Emacs &lt;a class="header-link" href="#emacs">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://github.com/masasam/emacs-easy-hugo" rel="external">emacs-easy-hugo&lt;/a>&lt;/dt>
+&lt;dd>Emacs major mode for managing hugo blogs. Note that Hugo also supports &lt;a href="https://gohugo.io/content-management/formats/">Org-mode&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://ox-hugo.scripter.co" rel="external">ox-hugo.el&lt;/a>&lt;/dt>
+&lt;dd>Native Org-mode exporter that exports to Blackfriday Markdown with Hugo front-matter. &lt;code>ox-hugo&lt;/code> supports two common Org blogging flows &amp;mdash; exporting multiple Org subtrees in a single file to multiple Hugo posts, and exporting a single Org file to a single Hugo post. It also leverages the Org tag and property inheritance features. See &lt;a href="https://ox-hugo.scripter.co/doc/why-ox-hugo/" rel="external">&lt;em>Why ox-hugo?&lt;/em>&lt;/a> for more.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="sublime-text">Sublime Text &lt;a class="header-link" href="#sublime-text">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://github.com/akmittal/Hugofy" rel="external">Hugofy&lt;/a>&lt;/dt>
+&lt;dd>Hugofy is a plugin for Sublime Text 3 to make life easier to use Hugo static site generator.&lt;/dd>
+&lt;dt>&lt;a href="https://packagecontrol.io/packages/Hugo%20Snippets" rel="external">Hugo Snippets&lt;/a>&lt;/dt>
+&lt;dd>Hugo Snippets is a useful plugin for adding automatic snippets to Sublime Text 3.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="vim">Vim &lt;a class="header-link" href="#vim">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://github.com/robertbasic/vim-hugo-helper" rel="external">Vim Hugo Helper&lt;/a>&lt;/dt>
+&lt;dd>A small Vim plugin that facilitates authoring pages and blog posts with Hugo.&lt;/dd>
+&lt;dt>&lt;a href="https://github.com/phelipetls/vim-hugo" rel="external">vim-hugo&lt;/a>&lt;/dt>
+&lt;dd>A Vim plugin with syntax highlighting for templates and a few other features.&lt;/dd>
+&lt;/dl></description></item><item><title>Front-end interfaces</title><link>https://gohugo.io/tools/front-ends/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/tools/front-ends/</guid><description>&lt;h2 id="commercial">Commercial &lt;a class="header-link" href="#commercial">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://cloudcannon.com/hugo-cms/" rel="external">CloudCannon&lt;/a>&lt;/dt>
+&lt;dd>The intuitive Git-based CMS for your Hugo website. CloudCannon syncs changes from your Git repository and pushes content changes back, so your development and content teams are always in sync. Edit all of your content on the page with visual editing, build entire pages with reusable custom components and then publish confidently.&lt;/dd>
+&lt;dt>&lt;a href="https://www.datocms.com" rel="external">DatoCMS&lt;/a>&lt;/dt>
+&lt;dd>DatoCMS is a fully customizable administrative area for your static websites. Use your favorite website generator, let your clients publish new content independently, and the host the site anywhere you like.&lt;/dd>
+&lt;dt>&lt;a href="https://www.pubcrank.com/" rel="external">PubCrank&lt;/a>&lt;/dt>
+&lt;dd>PubCrank is a static site editor which lets you define templates for different front matter layouts in your site. This gives writers an easy-to-use visual interface to create and edit content while maintaining the guardrails that the developer has created. PubCrank is free for local editing.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="open-source">Open-source &lt;a class="header-link" href="#open-source">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://decapcms.org/" rel="external">Decap CMS&lt;/a>&lt;/dt>
+&lt;dd>Decap CMS is an open-source, serverless solution for managing Git based content in static sites, and it works on any platform that can host static sites. A &lt;a href="https://github.com/decaporg/one-click-hugo-cms" rel="external">Hugo/Decap CMS starter&lt;/a> is available to get new projects running quickly.&lt;/dd>
+&lt;dt>&lt;a href="https://quiqr.org/" rel="external">Quiqr Desktop&lt;/a>&lt;/dt>
+&lt;dd>Quiqr Desktop is a open-source, cross-platform, offline desktop CMS for Hugo with built-in Git functionality for deploying static sites to any hosting server.&lt;/dd>
+&lt;dt>&lt;a href="https://github.com/sveltia/sveltia-cms/" rel="external">Sveltia CMS&lt;/a>&lt;/dt>
+&lt;dd>Sveltia CMS is a drop-in replacement for Decap CMS which is built from the ground up with powerful and performant modern UI library Svelte. Sveltia CMS incorporates i18n into every corner of the product, while striving to radically improve UX, performance and productivity.&lt;/dd>
+&lt;/dl></description></item><item><title>Search tools</title><link>https://gohugo.io/tools/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/tools/search/</guid><description>&lt;p>A static website with a dynamic search function? Yes, Hugo provides an alternative to embeddable scripts from Google or other search engines for static websites. Hugo allows you to provide your visitors with a custom search function by indexing your content files directly.&lt;/p>
+&lt;h2 id="open-source">Open-source &lt;a class="header-link" href="#open-source">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://github.com/cloudcannon/pagefind" rel="external">Pagefind&lt;/a>&lt;/dt>
+&lt;dd>A fully static search library that aims to perform well on large sites, while using as little of your users&amp;rsquo; bandwidth as possible.&lt;/dd>
+&lt;dt>&lt;a href="https://gist.github.com/sebz/efddfc8fdcb6b480f567" rel="external">GitHub Gist for Hugo Workflow&lt;/a>&lt;/dt>
+&lt;dd>This gist contains a simple workflow to create a search index for your static website. It uses a simple Grunt script to index all your content files and &lt;a href="https://lunrjs.com/" rel="external">lunr.js&lt;/a> to serve the search results.&lt;/dd>
+&lt;dt>&lt;a href="https://www.npmjs.com/package/hugo-lunr" rel="external">hugo-lunr&lt;/a>&lt;/dt>
+&lt;dd>A simple way to add site search to your static Hugo site using &lt;a href="https://lunrjs.com/" rel="external">lunr.js&lt;/a>. Hugo-lunr will create an index file of any HTML and Markdown documents in your Hugo project.&lt;/dd>
+&lt;dt>&lt;a href="https://www.npmjs.com/package/hugo-lunr-zh" rel="external">hugo-lunr-zh&lt;/a>&lt;/dt>
+&lt;dd>A bit like Hugo-lunr, but Hugo-lunr-zh can help you separate the Chinese keywords.&lt;/dd>
+&lt;dt>&lt;a href="https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae" rel="external">GitHub Gist for Fuse.js integration&lt;/a>&lt;/dt>
+&lt;dd>This gist demonstrates how to leverage Hugo&amp;rsquo;s existing build time processing to generate a searchable JSON index used by &lt;a href="https://fusejs.io/" rel="external">Fuse.js&lt;/a> on the client-side. Although this gist uses Fuse.js for fuzzy matching, any client-side search tool capable of reading JSON indexes will work. Does not require npm, grunt, or other build-time tools except Hugo!&lt;/dd>
+&lt;dt>&lt;a href="https://www.npmjs.com/package/hugo-search-index" rel="external">hugo-search-index&lt;/a>&lt;/dt>
+&lt;dd>A library containing Gulp tasks and a prebuilt browser script that implements search. Gulp generates a search index from project Markdown files.&lt;/dd>
+&lt;dt>&lt;a href="https://gist.github.com/cmod/5410eae147e4318164258742dd053993" rel="external">hugofastsearch&lt;/a>&lt;/dt>
+&lt;dd>A usability and speed update to &amp;ldquo;GitHub Gist for Fuse.js integration&amp;rdquo; — global, keyboard-optimized search.&lt;/dd>
+&lt;dt>&lt;a href="https://makewithhugo.com/add-search-to-a-hugo-site/" rel="external">JS &amp;amp; Fuse.js tutorial&lt;/a>&lt;/dt>
+&lt;dd>A simple client-side search solution, using FuseJS (does not require jQuery).&lt;/dd>
+&lt;dt>&lt;a href="https://github.com/paolomainardi/hugo-lyra" rel="external">Hugo Lyra&lt;/a>&lt;/dt>
+&lt;dd>Hugo-Lyra is a JavaScript module to integrate &lt;a href="https://github.com/LyraSearch/lyra" rel="external">Lyra&lt;/a> into a Hugo website. It contains the server-side part to generate the index and the client-side library (optional) to bootstrap the search engine easily.&lt;/dd>
+&lt;dt>&lt;a href="https://github.com/infinilabs/pizza-docsearch" rel="external">INFINI Pizza for WebAssembly&lt;/a>&lt;/dt>
+&lt;dd>Pizza is a super-lightweight yet fully featured search engine written in Rust. You can quickly add offline search functionality to your Hugo website in just five minutes with only three lines of code. For a step-by-step guide on integrating it with Hugo, check out &lt;a href="https://dev.to/medcl/adding-search-functionality-to-a-hugo-static-site-based-on-infini-pizza-for-webassembly-4h5e" rel="external">this blog tutorial&lt;/a>.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="commercial">Commercial &lt;a class="header-link" href="#commercial">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://www.algolia.com/" rel="external">Algolia&lt;/a>&lt;/dt>
+&lt;dd>Algolia&amp;rsquo;s Search API makes it easy to deliver a great search experience in your apps and websites. Algolia Search provides hosted full-text, numerical, faceted, and geolocalized search.&lt;/dd>
+&lt;dt>&lt;a href="https://www.bonsai.io" rel="external">Bonsai&lt;/a>&lt;/dt>
+&lt;dd>Bonsai is a fully-managed hosted Elasticsearch service that is fast, reliable, and simple to set up. Easily ingest your docs from Hugo into Elasticsearch following &lt;a href="https://bonsai.io/docs/hugo" rel="external">this guide from the docs&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://www.expertrec.com/" rel="external">ExpertRec&lt;/a>&lt;/dt>
+&lt;dd>ExpertRec is a hosted search-as-a-service solution that is fast and scalable. Set-up and integration is extremely easy and takes only a few minutes. The search settings can be modified without coding using a dashboard.&lt;/dd>
+&lt;/dl></description></item><item><title>Migrate to Hugo</title><link>https://gohugo.io/tools/migrations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/tools/migrations/</guid><description>&lt;p>This section highlights some independently developed projects related to Hugo. These tools extend functionality or help you to get started.&lt;/p>
+&lt;p>Take a look at this list of migration tools if you currently use other blogging tools like Jekyll or WordPress but intend to switch to Hugo instead. They&amp;rsquo;ll help you export your content into Hugo-friendly formats.&lt;/p>
+&lt;h2 id="jekyll">Jekyll &lt;a class="header-link" href="#jekyll">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Alternatively, you can use the &lt;a href="https://gohugo.io/commands/hugo_import_jekyll/">Jekyll import command&lt;/a>.&lt;/p></description></item><item><title>Other community projects</title><link>https://gohugo.io/tools/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/tools/other/</guid><description>&lt;p>And for all the other community projects around Hugo:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/ttybitnik/diego" rel="external">diego&lt;/a> - A CLI tool that integrates with Hugo to assist in importing and utilizing exported social media data from popular services on Hugo websites.&lt;/li>
+&lt;li>&lt;a href="https://github.com/masasam/emacs-easy-hugo" rel="external">Emacs Easy Hugo&lt;/a> - Emacs package for writing blog posts in Markdown or org-mode and building your site with Hugo.&lt;/li>
+&lt;li>&lt;a href="https://github.com/thomasmey/HugoSftpUpload" rel="external">Hugo SFTP Upload&lt;/a> - Sync the local build of your Hugo website with your remote web server via SFTP.&lt;/li>
+&lt;li>&lt;a href="https://github.com/GjjvdBurg/HugoPhotoSwipe" rel="external">HugoPhotoSwipe&lt;/a> - Make it easy to create image galleries using PhotoSwipe.&lt;/li>
+&lt;li>&lt;a href="https://jamstackthemes.dev/ssg/hugo/" rel="external">JAMStack Themes&lt;/a> - A collection of site themes filterable by static site generator and supported CMS to help build CMS-connected sites using Hugo (linking to Hugo-specific themes).&lt;/li>
+&lt;li>&lt;a href="https://github.com/nikhilm/flickr-hugo-embed" rel="external">flickr-hugo-embed&lt;/a> - Print shortcodes to embed a set of images from an album on Flickr into Hugo.&lt;/li>
+&lt;li>&lt;a href="https://github.com/icecreammatt/hugo-gallery" rel="external">hugo-gallery&lt;/a> - Create an image gallery for Hugo sites.&lt;/li>
+&lt;li>&lt;a href="https://github.com/tenfourty/hugo-openapispec-shortcode" rel="external">hugo-openapispec-shortcode&lt;/a> - A shortcode that allows you to include &lt;a href="https://openapis.org" rel="external">Open API Spec&lt;/a> (formerly known as Swagger Spec) in a page.&lt;/li>
+&lt;li>&lt;a href="https://github.com/divinerites/plausible-hugo" rel="external">plausible-hugo&lt;/a> - Easy Hugo integration for Plausible Analytics, a simple, open-source, lightweight and privacy-friendly web analytics alternative to Google Analytics.&lt;/li>
+&lt;/ul></description></item></channel></rss>

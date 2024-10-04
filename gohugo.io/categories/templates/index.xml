@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Templates on Hugo</title><link>https://gohugo.io/categories/templates/</link><description>Recent content in Templates on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/templates/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to templating</title><link>https://gohugo.io/templates/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/introduction/</guid><description>&lt;p>A template is a file in the layouts directory of a project, theme, or module. Templates use &lt;a href="https://gohugo.io/templates/introduction/#variables">variables&lt;/a> , &lt;a href="https://gohugo.io/functions/">functions&lt;/a>, and &lt;a href="https://gohugo.io/methods/">methods&lt;/a> to transform your content, resources, and data into a published page.&lt;/p>
+
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>Hugo uses Go&amp;rsquo;s &lt;a href="https://pkg.go.dev/text/template" rel="external">text/template&lt;/a> and &lt;a href="https://pkg.go.dev/html/template" rel="external">html/template&lt;/a> packages.&lt;/p>
+&lt;p>The text/template package implements data-driven templates for generating textual output, while the html/template package implements data-driven templates for generating HTML output safe against code injection.&lt;/p>
+&lt;p>By default, Hugo uses the html/template package when rendering HTML files.&lt;/p></description></item><item><title>Template types</title><link>https://gohugo.io/templates/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/types/</guid><description>&lt;p>&lt;a href="https://gohugo.io/templates/types/site-hierarchy.svg">&lt;img alt="structural diagram of a website" src="https://gohugo.io/templates/types/site-hierarchy.svg">&lt;/a>&lt;/p>
+&lt;h2 id="structure">Structure &lt;a class="header-link" href="#structure">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Create templates in the layouts directory in the root of your project.&lt;/p>
+&lt;p>Although your site may not require each of these templates, the example below is typical for a site of medium complexity.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">layouts/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── _default/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── _markup/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ ├── render-image.html &amp;lt;-- render hook
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ └── render-link.html &amp;lt;-- render hook
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── baseof.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── home.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── section.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── single.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── taxonomy.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── term.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── articles/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── card.html &amp;lt;-- content view
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── partials/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ ├── footer.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── header.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── shortcodes/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── audio.html
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └── video.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hugo&amp;rsquo;s &lt;a href="https://gohugo.io/templates/lookup-order/">template lookup order&lt;/a> determines the template path, allowing you to create unique templates for any page.&lt;/p></description></item><item><title>Template lookup order</title><link>https://gohugo.io/templates/lookup-order/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/lookup-order/</guid><description>&lt;h2 id="lookup-rules">Lookup rules &lt;a class="header-link" href="#lookup-rules">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo takes the parameters listed below into consideration when choosing a template for a given page. The templates are ordered by specificity. This should feel natural, but look at the table below for concrete examples of the different parameter variations.&lt;/p>
+&lt;dl>
+&lt;dt>Kind&lt;/dt>
+&lt;dd>The page &lt;code>Kind&lt;/code> (the home page is one). See the example tables below per kind. This also determines if it is a &lt;strong>single page&lt;/strong> (i.e. a regular content page. We then look for a template in &lt;code>_default/single.html&lt;/code> for HTML) or a &lt;strong>list page&lt;/strong> (section listings, home page, taxonomy lists, taxonomy terms. We then look for a template in &lt;code>_default/list.html&lt;/code> for HTML).&lt;/dd>
+&lt;dt>Layout&lt;/dt>
+&lt;dd>Can be set in front matter.&lt;/dd>
+&lt;dt>Output Format&lt;/dt>
+&lt;dd>See &lt;a href="https://gohugo.io/templates/output-formats/">Custom Output Formats&lt;/a>. An output format has both a &lt;code>name&lt;/code> (e.g. &lt;code>rss&lt;/code>, &lt;code>amp&lt;/code>, &lt;code>html&lt;/code>) and a &lt;code>suffix&lt;/code> (e.g. &lt;code>xml&lt;/code>, &lt;code>html&lt;/code>). We prefer matches with both (e.g. &lt;code>index.amp.html&lt;/code>), but look for less specific templates.&lt;/dd>
+&lt;/dl>
+&lt;p>Note that if the output format&amp;rsquo;s Media Type has more than one suffix defined, only the first is considered.&lt;/p></description></item><item><title>Base templates</title><link>https://gohugo.io/templates/base/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/base/</guid><description>&lt;p>The &lt;code>block&lt;/code> keyword allows you to define the outer shell of your pages&amp;rsquo; one or more master template(s) and then fill in or override portions as necessary.&lt;/p>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QVOMCYitLEc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="base-template-lookup-order">Base template lookup order &lt;a class="header-link" href="#base-template-lookup-order">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>The base template lookup order closely follows that of the template it applies to (e.g. &lt;code>_default/list.html&lt;/code>).&lt;/p></description></item><item><title>Home templates</title><link>https://gohugo.io/templates/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/home/</guid><description>&lt;p>The home template is the &lt;em>only&lt;/em> required template for building a site and therefore useful when bootstrapping a new site and template. It is also the only required template if you are developing a single-page website.&lt;/p>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ut1xtRZ1QOA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="home-template-lookup-order">Home template lookup order &lt;a class="header-link" href="#home-template-lookup-order">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>See &lt;a href="https://gohugo.io/templates/lookup-order/">Template Lookup&lt;/a>.&lt;/p></description></item><item><title>Single templates</title><link>https://gohugo.io/templates/single/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/single/</guid><description>&lt;p>The single template below inherits the site&amp;rsquo;s shell from the &lt;a href="https://gohugo.io/templates/types/">base template&lt;/a>.&lt;/p>
+
+&lt;div class="code relative" id="layouts/_default/single.html">
+ &lt;div class="f6 dib lh-solid pl2 pv2">layouts/_default/single.html&lt;/div>
+ &lt;div class="code-copy-content nt3">&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">define&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;main&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Title&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Content&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Review the &lt;a href="https://gohugo.io/templates/lookup-order/#single-templates">template lookup order&lt;/a> to select a template path that provides the desired level of specificity.&lt;/p>
+&lt;p>The single template below inherits the site&amp;rsquo;s shell from the base template, and renders the page title, creation date, content, and a list of associated terms in the &amp;ldquo;tags&amp;rdquo; taxonomy.&lt;/p></description></item><item><title>Section templates</title><link>https://gohugo.io/templates/section/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/section/</guid><description>&lt;h2 id="add-content-and-front-matter-to-section-templates">Add content and front matter to section templates &lt;a class="header-link" href="#add-content-and-front-matter-to-section-templates">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To effectively leverage section templates, you should first understand Hugo&amp;rsquo;s &lt;a href="https://gohugo.io/content-management/organization/">content organization&lt;/a> and, specifically, the purpose of &lt;code>_index.md&lt;/code> for adding content and front matter to section and other list pages.&lt;/p>
+&lt;h2 id="section-template-lookup-order">Section template lookup order &lt;a class="header-link" href="#section-template-lookup-order">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>See &lt;a href="https://gohugo.io/templates/lookup-order/">Template Lookup&lt;/a>.&lt;/p></description></item><item><title>Taxonomy templates</title><link>https://gohugo.io/templates/taxonomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/taxonomy/</guid><description>&lt;p>The &lt;a href="https://gohugo.io/getting-started/glossary/#taxonomy">taxonomy&lt;/a> template below inherits the site&amp;rsquo;s shell from the &lt;a href="https://gohugo.io/templates/types/">base template&lt;/a>, and renders a list of &lt;a href="https://gohugo.io/getting-started/glossary/#term">terms&lt;/a> in the current taxonomy.&lt;/p>
+
+&lt;div class="code relative" id="layouts/_default/taxonomy.html">
+ &lt;div class="f6 dib lh-solid pl2 pv2">layouts/_default/taxonomy.html&lt;/div>
+ &lt;div class="code-copy-content nt3">&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">define&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;main&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Title&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Content&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">range&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Pages&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.RelPermalink&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.LinkTitle&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Review the &lt;a href="https://gohugo.io/templates/lookup-order/#taxonomy-templates">template lookup order&lt;/a> to select a template path that provides the desired level of specificity.&lt;/p>
+&lt;p>In the example above, the taxonomy and term will be capitalized if their respective pages are not backed by files. You can disable this in your site configuration:&lt;/p></description></item><item><title>Term templates</title><link>https://gohugo.io/templates/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/term/</guid><description>&lt;p>The &lt;a href="https://gohugo.io/getting-started/glossary/#term">term&lt;/a> template below inherits the site&amp;rsquo;s shell from the &lt;a href="https://gohugo.io/templates/types/">base template&lt;/a>, and renders a list of pages associated with the current term.&lt;/p>
+
+&lt;div class="code relative" id="layouts/_default/term.html">
+ &lt;div class="f6 dib lh-solid pl2 pv2">layouts/_default/term.html&lt;/div>
+ &lt;div class="code-copy-content nt3">&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">define&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;main&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Title&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Content&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">range&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Pages&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.RelPermalink&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.LinkTitle&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Review the &lt;a href="https://gohugo.io/templates/lookup-order/#taxonomy-templates">template lookup order&lt;/a> to select a template path that provides the desired level of specificity.&lt;/p>
+&lt;p>In the example above, the term will be capitalized if its respective page is not backed by a file. You can disable this in your site configuration:&lt;/p></description></item><item><title>Partial templates</title><link>https://gohugo.io/templates/partial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/partial/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pjS4pOLyB7c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="use-partials-in-your-templates">Use partials in your templates &lt;a class="header-link" href="#use-partials-in-your-templates">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>All partials for your Hugo project are located in a single &lt;code>layouts/partials&lt;/code> directory. For better organization, you can create multiple subdirectories within &lt;code>partials&lt;/code> as well:&lt;/p></description></item><item><title>Content view templates</title><link>https://gohugo.io/templates/content-view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/content-view/</guid><description>&lt;p>The following are common use cases for content views:&lt;/p>
+&lt;ul>
+&lt;li>You want content of every type to be shown on the home page but only with limited &lt;a href="https://gohugo.io/content-management/summaries/">summary views&lt;/a>.&lt;/li>
+&lt;li>You only want a bulleted list of your content in a &lt;a href="https://gohugo.io/templates/types/#taxonomy">taxonomy template&lt;/a>. Views make this very straightforward by delegating the rendering of each different type of content to the content itself.&lt;/li>
+&lt;/ul>
+&lt;h2 id="create-a-content-view">Create a content view &lt;a class="header-link" href="#create-a-content-view">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To create a new view, create a template in each of your different content type directories with the view name. The following example contains an &amp;ldquo;li&amp;rdquo; view and a &amp;ldquo;summary&amp;rdquo; view for the &lt;code>posts&lt;/code> and &lt;code>project&lt;/code> content types. As you can see, these sit next to the &lt;a href="https://gohugo.io/templates/types/#single">single template&lt;/a>, &lt;code>single.html&lt;/code>. You can even provide a specific view for a given type and continue to use the &lt;code>_default/single.html&lt;/code> for the primary view.&lt;/p></description></item><item><title>Create your own shortcodes</title><link>https://gohugo.io/templates/shortcode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/shortcode/</guid><description>&lt;p>Shortcodes are a means to consolidate templating into small, reusable snippets that you can embed directly inside your content.&lt;/p>
+
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>Hugo also ships with embedded shortcodes for common use cases. (See &lt;a href="https://gohugo.io/content-management/shortcodes/">Content Management: Shortcodes&lt;/a>.)&lt;/p>
+
+ &lt;/div>
+&lt;/aside>
+
+&lt;h2 id="create-custom-shortcodes">Create custom shortcodes &lt;a class="header-link" href="#create-custom-shortcodes">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo&amp;rsquo;s embedded shortcodes cover many common, but not all, use cases. Luckily, Hugo provides the ability to easily create custom shortcodes to meet your website&amp;rsquo;s needs.&lt;/p></description></item><item><title>Sitemap templates</title><link>https://gohugo.io/templates/sitemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/sitemap/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo&amp;rsquo;s embedded sitemap templates conform to v0.9 of the &lt;a href="https://www.sitemaps.org/protocol.html" rel="external">sitemap protocol&lt;/a>.&lt;/p>
+&lt;p>With a monolingual project, Hugo generates a sitemap.xml file in the root of the &lt;a href="https://gohugo.io/getting-started/configuration/#publishdir">&lt;code>publishDir&lt;/code>&lt;/a> using the &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/sitemap.xml" rel="external">embedded sitemap template&lt;/a>.&lt;/p>
+&lt;p>With a multilingual project, Hugo generates:&lt;/p>
+&lt;ul>
+&lt;li>A sitemap.xml file in the root of each site (language) using the &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/sitemap.xml" rel="external">embedded sitemap template&lt;/a>&lt;/li>
+&lt;li>A sitemap.xml file in the root of the &lt;a href="https://gohugo.io/getting-started/configuration/#publishdir">&lt;code>publishDir&lt;/code>&lt;/a> using the &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/sitemapindex.xml" rel="external">embedded sitemapindex template&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration">Configuration &lt;a class="header-link" href="#configuration">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>These are the default sitemap configuration values. They apply to all pages unless overridden in front matter.&lt;/p></description></item><item><title>RSS templates</title><link>https://gohugo.io/templates/rss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/rss/</guid><description>&lt;h2 id="configuration">Configuration &lt;a class="header-link" href="#configuration">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>By default, when you build your site, Hugo generates RSS feeds for home, section, taxonomy, and term pages. Control feed generation in your site configuration. For example, to generate feeds for home and section pages, but not for taxonomy and term pages:&lt;/p></description></item><item><title>Custom 404 page</title><link>https://gohugo.io/templates/404/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/404/</guid><description>&lt;p>To render a 404 error page in the root of your site, create a 404 template in the root of the layouts directory. For example:&lt;/p>
+
+&lt;div class="code relative" id="layouts/404.html">
+ &lt;div class="f6 dib lh-solid pl2 pv2">layouts/404.html&lt;/div>
+ &lt;div class="code-copy-content nt3">&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">define&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;main&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>404 Not Found&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>The page you requested cannot be found.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Site.Home.RelPermalink&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="s">&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Return to the home page
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">end&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>For multilingual sites, add the language key to the file name:&lt;/p></description></item><item><title>robots.txt template</title><link>https://gohugo.io/templates/robots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/robots/</guid><description>&lt;p>To generate a robots.txt file from a template, change the &lt;a href="https://gohugo.io/getting-started/configuration/">site configuration&lt;/a>:&lt;/p>
+
+&lt;div class="code relative" id="hugo">
+ &lt;div class="code-nav flex flex-nowrap items-stretch">
+ &lt;div class="san-serif f6 dib lh-solid pl2 pv2 mr2">
+ hugo.
+ &lt;/div>
+ &lt;button
+ data-toggle-tab="yaml"
+ class="tab-button active ba san-serif f6 dib lh-solid ph2 pv2">
+ yaml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="toml"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ toml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="json"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ json
+ &lt;/button>
+ &amp;nbsp;
+ &lt;/div>
+ &lt;div class="tab-content">
+ &lt;div
+ data-pane="yaml"
+ class="code-copy-content nt3 tab-pane active">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">enableRobotsTXT&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="toml"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enableRobotsTXT&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="json"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;enableRobotsTXT&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>By default, Hugo generates robots.txt using an &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/robots.txt" rel="external">embedded template&lt;/a>.&lt;/p></description></item><item><title>Menus</title><link>https://gohugo.io/templates/menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/menu/</guid><description>&lt;h2 id="overview">Overview &lt;a class="header-link" href="#overview">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>After &lt;a href="https://gohugo.io/content-management/menus/">defining menu entries&lt;/a>, use &lt;a href="https://gohugo.io/methods/menu/">menu methods&lt;/a> to render a menu.&lt;/p>
+&lt;p>Three factors determine how to render a menu:&lt;/p>
+&lt;ol>
+&lt;li>The method used to define the menu entries: &lt;a href="https://gohugo.io/content-management/menus/#define-automatically">automatic&lt;/a>, &lt;a href="https://gohugo.io/content-management/menus/#define-in-front-matter">in front matter&lt;/a>, or &lt;a href="https://gohugo.io/content-management/menus/#define-in-site-configuration">in site configuration&lt;/a>&lt;/li>
+&lt;li>The menu structure: flat or nested&lt;/li>
+&lt;li>The method used to &lt;a href="https://gohugo.io/content-management/multilingual/#menus">localize the menu entries&lt;/a>: site configuration or translation tables&lt;/li>
+&lt;/ol>
+&lt;p>The example below handles every combination.&lt;/p></description></item><item><title>Pagination</title><link>https://gohugo.io/templates/pagination/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/pagination/</guid><description>&lt;p>Displaying a large page collection on a list page is not user-friendly:&lt;/p>
+&lt;ul>
+&lt;li>A massive list can be intimidating and difficult to navigate. Users may get lost in the sheer volume of information.&lt;/li>
+&lt;li>Large pages take longer to load, which can frustrate users and lead to them abandoning the site.&lt;/li>
+&lt;li>Without any filtering or organization, finding a specific item becomes a tedious scrolling exercise.&lt;/li>
+&lt;/ul>
+&lt;p>Improve usability by paginating &lt;code>home&lt;/code>, &lt;code>section&lt;/code>, &lt;code>taxonomy&lt;/code>, and &lt;code>term&lt;/code> pages.&lt;/p></description></item><item><title>Embedded templates</title><link>https://gohugo.io/templates/embedded/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/embedded/</guid><description>&lt;h2 id="disqus">Disqus &lt;a class="header-link" href="#disqus">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>To override Hugo&amp;rsquo;s embedded Disqus template, copy the &lt;a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/disqus.html" rel="external">source code&lt;/a> to a file with the same name in the layouts/partials directory, then call it from your templates using the &lt;a href="https://gohugo.io/functions/partials/include/">&lt;code>partial&lt;/code>&lt;/a> function:&lt;/p>
+&lt;p>&lt;code>{{ partial &amp;quot;disqus.html&amp;quot; . }}&lt;/code>&lt;/p>
+
+ &lt;/div>
+&lt;/aside>
+
+&lt;p>Hugo includes an embedded template for &lt;a href="https://disqus.com" rel="external">Disqus&lt;/a>, a popular commenting system for both static and dynamic websites. To effectively use Disqus, secure a Disqus &amp;ldquo;shortname&amp;rdquo; by &lt;a href="https://disqus.com/profile/signup/" rel="external">signing up&lt;/a> for the free service.&lt;/p></description></item><item><title>Custom output formats</title><link>https://gohugo.io/templates/output-formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/templates/output-formats/</guid><description>&lt;p>This page describes how to properly configure your site with the media types and output formats, as well as where to create your templates for your custom outputs.&lt;/p>
+&lt;h2 id="media-types">Media types &lt;a class="header-link" href="#media-types">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Media_type" rel="external">media type&lt;/a> (formerly known as a MIME type) is a two-part identifier for file formats and format contents transmitted on the internet.&lt;/p></description></item></channel></rss>

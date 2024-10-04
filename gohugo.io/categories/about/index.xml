@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Hugo</title><link>https://gohugo.io/categories/about/</link><description>Recent content in About on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/about/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://gohugo.io/about/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/about/introduction/</guid><description>&lt;p>Hugo is a &lt;a href="https://en.wikipedia.org/wiki/Static_site_generator" rel="external">static site generator&lt;/a> written in &lt;a href="https://go.dev" rel="external">Go&lt;/a>, optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.&lt;/p>
+&lt;p>Due to its flexible framework, multilingual support, and powerful taxonomy system, Hugo is widely used to create:&lt;/p>
+&lt;ul>
+&lt;li>Corporate, government, nonprofit, education, news, event, and project sites&lt;/li>
+&lt;li>Documentation sites&lt;/li>
+&lt;li>Image portfolios&lt;/li>
+&lt;li>Landing pages&lt;/li>
+&lt;li>Business, professional, and personal blogs&lt;/li>
+&lt;li>Resumes and CVs&lt;/li>
+&lt;/ul>
+&lt;p>Use Hugo&amp;rsquo;s embedded web server during development to instantly see changes to content, structure, behavior, and presentation. Then deploy the site to your host, or push changes to your Git provider for automated builds and deployment.&lt;/p></description></item><item><title>Features</title><link>https://gohugo.io/about/features/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/about/features/</guid><description>&lt;h2 id="framework">Framework &lt;a class="header-link" href="#framework">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://gohugo.io/installation/">Multiplatform&lt;/a>&lt;/dt>
+&lt;dd>Install Hugo&amp;rsquo;s single executable on Linux, macOS, Windows, and more.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/multilingual/">Multilingual&lt;/a>&lt;/dt>
+&lt;dd>Localize your project for each language and region, including translations, images, dates, currencies, numbers, percentages, and collation sequence. Hugo&amp;rsquo;s multilingual framework supports single-host and multihost configurations.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/templates/output-formats/">Output formats&lt;/a>&lt;/dt>
+&lt;dd>Render each page of your site to one or more output formats, with granular control by page kind, section, and path. While HTML is the default output format, you can add JSON, RSS, CSV, and more. For example, create a REST API to access content.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/templates/introduction/">Templates&lt;/a>&lt;/dt>
+&lt;dd>Create templates using variables, functions, and methods to transform your content, resources, and data into a published page. While HTML templates are the most common, you can create templates for any output format.&lt;/dd>
+&lt;dt>&lt;a href="https://themes.gohugo.io/" rel="external">Themes&lt;/a>&lt;/dt>
+&lt;dd>Reduce development time and cost by using one of the hundreds of themes contributed by the Hugo community. Themes are available for corporate sites, documentation projects, image portfolios, landing pages, personal and professional blogs, resumes, CVs, and more.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/hugo-modules/" rel="external">Modules&lt;/a>&lt;/dt>
+&lt;dd>Reduce development time and cost by creating or importing packaged combinations of archetypes, assets, content, data, templates, translation tables, static files, or configuration settings. A module may serve as the basis for a new site, or to augment an existing site.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/about/privacy/">Privacy&lt;/a>&lt;/dt>
+&lt;dd>Configure the behavior of Hugo&amp;rsquo;s embedded templates and shortcodes to facilitate compliance with regional privacy regulations, including the &lt;a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" rel="external">GDPR&lt;/a> and &lt;a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act" rel="external">CCPA&lt;/a>.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/about/security/">Security&lt;/a>&lt;/dt>
+&lt;dd>Hugo&amp;rsquo;s security model is based on the premise that template and configuration authors are trusted, but content authors are not. This model enables generation of HTML output safe against code injection. Other protections prevent &amp;ldquo;shelling out&amp;rdquo; to arbitrary applications, limit access to specific environment variables, prevent connections to arbitrary remote data sources, and more.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="content-authoring">Content authoring &lt;a class="header-link" href="#content-authoring">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/formats/">Content formats&lt;/a>&lt;/dt>
+&lt;dd>Create your content using Markdown, HTML, AsciiDoc, Emacs Org Mode, Pandoc, or reStructuredText. Markdown is the default content format, conforming to the &lt;a href="https://spec.commonmark.org/current/" rel="external">CommonMark&lt;/a> and &lt;a href="https://github.github.com/gfm/" rel="external">GitHub Flavored Markdown&lt;/a> specifications.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/markdown-attributes/">Markdown attributes&lt;/a>&lt;/dt>
+&lt;dd>Apply HTML attributes such as &lt;code>class&lt;/code> and &lt;code>id&lt;/code> to Markdown images and block elements including blockquotes, fenced code blocks, headings, horizontal rules, lists, paragraphs, and tables.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/getting-started/configuration-markup/#goldmark-extensions">Markdown extensions&lt;/a>&lt;/dt>
+&lt;dd>Leverage the embedded Markdown extensions to create tables, definition lists, footnotes, task lists, inserted text, mark text, subscripts, superscripts, and more.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/render-hooks/introduction/">Markdown render hooks&lt;/a>&lt;/dt>
+&lt;dd>Override the conversion of Markdown to HTML when rendering blockquotes, fenced code blocks, headings, images, links, and tables. For example, render every standalone image as an HTML &lt;code>figure&lt;/code> element.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/diagrams/">Diagrams&lt;/a>&lt;/dt>
+&lt;dd>Use fenced code blocks and Markdown render hooks to include diagrams in your content.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/mathematics/">Mathematics&lt;/a>&lt;/dt>
+&lt;dd>Include mathematical equations and expressions in Markdown using LaTeX or TeX typesetting syntax.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax highlighting&lt;/a>&lt;/dt>
+&lt;dd>Syntactically highlight code examples using Hugo&amp;rsquo;s embedded syntax highlighter, enabled by default for fenced code blocks in Markdown. The syntax highlighter supports hundreds of code languages and dozens of styles.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/shortcodes/">Shortcodes&lt;/a>&lt;/dt>
+&lt;dd>Use Hugo&amp;rsquo;s embedded shortcodes, or create your own, to insert complex content. For example, use shortcodes to include &lt;code>audio&lt;/code> and &lt;code>video&lt;/code> elements, render tables from local or remote data sources, insert snippets from other pages, and more.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="content-management">Content management &lt;a class="header-link" href="#content-management">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/content-adapters/">Content adapters&lt;/a>&lt;/dt>
+&lt;dd>Create content adapters to dynamically add content when building your site. For example, use a content adapter to create pages from a remote data source such as JSON, TOML, YAML, or XML.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/taxonomies/">Taxonomies&lt;/a>&lt;/dt>
+&lt;dd>Classify content to establish simple or complex logical relationships between pages. For example, create an authors taxonomy, and assign one or more authors to each page. Among other uses, the taxonomy system provides an inverted, weighted index to render a list of related pages, ordered by relevance.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/data-sources/">Data&lt;/a>&lt;/dt>
+&lt;dd>Augment your content using local or remote data sources including CSV, JSON, TOML, YAML, and XML. For example, create a shortcode to render an HTML table from a remote CSV file.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/menus/">Menus&lt;/a>&lt;/dt>
+&lt;dd>Provide rapid access to content via Hugo&amp;rsquo;s menu system, configured automatically, globally, or on a page-by-page basis. The menu system is a key component of Hugo&amp;rsquo;s multilingual architecture.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/urls/">URL management&lt;/a>&lt;/dt>
+&lt;dd>Serve any page from any path via global configuration or on a page-by-page basis.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="asset-pipelines">Asset pipelines &lt;a class="header-link" href="#asset-pipelines">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://gohugo.io/content-management/image-processing/">Image processing&lt;/a>&lt;/dt>
+&lt;dd>Convert, resize, crop, rotate, adjust colors, apply filters, overlay text and images, and extract EXIF data.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/functions/js/build/">JavaScript bundling&lt;/a>&lt;/dt>
+&lt;dd>Transpile TypeScript and JSX to JavaScript, bundle, tree shake, minify, create source maps, and perform SRI hashing.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/functions/css/sass/">Sass processing&lt;/a>&lt;/dt>
+&lt;dd>Transpile Sass to CSS, bundle, tree shake, minify, create source maps, perform SRI hashing, and integrate with PostCSS.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/functions/css/tailwindcss/">Tailwind CSS processing&lt;/a>&lt;/dt>
+&lt;dd>Compile Tailwind CSS utility classes into standard CSS, bundle, tree shake, optimize, minify, perform SRI hashing, and integrate with PostCSS.&lt;/dd>
+&lt;/dl>
+&lt;h2 id="performance">Performance &lt;a class="header-link" href="#performance">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;dl>
+&lt;dt>&lt;a href="https://gohugo.io/functions/partials/includecached/">Caching&lt;/a>&lt;/dt>
+&lt;dd>Reduce build time and cost by rendering a partial template once then cache the result, either globally or within a given context. For example, cache the result of an asset pipeline to prevent reprocessing on every rendered page.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/getting-started/configuration/#configure-segments">Segmentation&lt;/a>&lt;/dt>
+&lt;dd>Reduce build time and cost by partitioning your sites into segments. For example, render the home page and the &amp;ldquo;news section&amp;rdquo; every hour, and render the entire site once a week.&lt;/dd>
+&lt;dt>&lt;a href="https://gohugo.io/getting-started/configuration/#configure-minify">Minification&lt;/a>&lt;/dt>
+&lt;dd>Minify HTML, CSS, and JavaScript to reduce file size, bandwidth consumption, and loading times.&lt;/dd>
+&lt;/dl></description></item><item><title>Privacy</title><link>https://gohugo.io/about/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/about/privacy/</guid><description>&lt;p>General Data Protection Regulation (&lt;a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" rel="external">GDPR&lt;/a>) is a regulation in EU law on data protection and privacy for all individuals within the European Union and the European Economic Area. It became enforceable on 25 May 2018.&lt;/p>
+&lt;p>&lt;strong>Hugo is a static site generator. By using Hugo you are already standing on very solid ground. Static HTML files on disk are much easier to reason about compared to server and database driven websites.&lt;/strong>&lt;/p></description></item><item><title>Security model</title><link>https://gohugo.io/about/security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/about/security/</guid><description>&lt;h2 id="runtime-security">Runtime security &lt;a class="header-link" href="#runtime-security">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo produces static output, so once built, the runtime is the browser (assuming the output is HTML) and any server (API) that you integrate with.&lt;/p>
+&lt;p>But when developing and building your site, the runtime is the &lt;code>hugo&lt;/code> executable. Securing a runtime can be &lt;a href="https://blog.logrocket.com/how-to-protect-your-node-js-applications-from-malicious-dependencies-5f2e60ea08f9/" rel="external">a real challenge&lt;/a>.&lt;/p></description></item><item><title>License</title><link>https://gohugo.io/about/license/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/about/license/</guid><description>&lt;h2 id="apache-license">Apache License &lt;a class="header-link" href="#apache-license">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>&lt;em>Version 2.0, January 2004&lt;/em>&lt;br>
+&lt;em>&lt;a href="http://www.apache.org/licenses/" rel="external">http://www.apache.org/licenses/&lt;/a>&lt;/em>&lt;/p>
+&lt;h3 id="terms-and-conditions-for-use-reproduction-and-distribution">Terms and Conditions for use, reproduction, and distribution &lt;a class="header-link" href="#terms-and-conditions-for-use-reproduction-and-distribution">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h3>
+&lt;h4 id="1-definitions">1. Definitions &lt;a class="header-link" href="#1-definitions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h4>
+&lt;p>“License” shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.&lt;/p></description></item></channel></rss>

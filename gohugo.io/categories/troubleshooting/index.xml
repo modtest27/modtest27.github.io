@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Troubleshooting on Hugo</title><link>https://gohugo.io/categories/troubleshooting/</link><description>Recent content in Troubleshooting on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/troubleshooting/index.xml" rel="self" type="application/rss+xml"/><item><title>Site audit</title><link>https://gohugo.io/troubleshooting/audit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/audit/</guid><description>&lt;p>There are several conditions that can produce errors in your published site which are not detected during the build. Run this audit before your final build.&lt;/p>
+
+&lt;div class="code relative" id="nbsp">
+ &lt;div class="f6 dib lh-solid pl2 pv2"> &lt;/div>
+ &lt;button class="needs-js copy bg-accent-color-dark f6 absolute top-0 right-0 lh-solid hover-bg-primary-color-dark bn white ph3 pv2" title="Copy this code to your clipboard." data-clipboard-action="copy" aria-label="copy button">&lt;/button>
+ &lt;div class="code-copy-content nt3">&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo &amp;amp;&amp;amp; grep -inorE &amp;#34;&amp;lt;\!-- raw HTML omitted --&amp;gt;|ZgotmplZ|\[i18n\]|\(&amp;lt;nil&amp;gt;\)|(&amp;amp;lt;nil&amp;amp;gt;)|hahahugo&amp;#34; public/&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>&lt;em>Tested with GNU Bash 5.1 and GNU grep 3.7.&lt;/em>&lt;/p></description></item><item><title>Logging</title><link>https://gohugo.io/troubleshooting/logging/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/logging/</guid><description>&lt;h2 id="command-line">Command line &lt;a class="header-link" href="#command-line">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Enable console logging with the &lt;code>--logLevel&lt;/code> command line flag.&lt;/p>
+&lt;p>Hugo has four logging levels:&lt;/p>
+&lt;dl>
+&lt;dt>error&lt;/dt>
+&lt;dd>Display error messages only.&lt;/dd>
+&lt;/dl>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo --logLevel error
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;dl>
+&lt;dt>warn&lt;/dt>
+&lt;dd>Display warning and error messages.&lt;/dd>
+&lt;/dl>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo --logLevel warn
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;dl>
+&lt;dt>info&lt;/dt>
+&lt;dd>Display information, warning, and error messages.&lt;/dd>
+&lt;/dl>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo --logLevel info
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;dl>
+&lt;dt>debug&lt;/dt>
+&lt;dd>Display debug, information, warning, and error messages.&lt;/dd>
+&lt;/dl>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo --logLevel debug
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>If you do not specify a logging level with the &lt;code>--logLevel&lt;/code> flag, warnings and errors are always displayed.&lt;/p></description></item><item><title>Data inspection</title><link>https://gohugo.io/troubleshooting/inspection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/inspection/</guid><description>&lt;p>Use the &lt;a href="https://gohugo.io/functions/debug/dump/">&lt;code>debug.Dump&lt;/code>&lt;/a> function to inspect a data structure:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">pre&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">debug&lt;/span>&lt;span class="na">.Dump&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="na">.Params&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">pre&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">{
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;date&amp;#34;: &amp;#34;2023-11-10T15:10:42-08:00&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;draft&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;iscjklanguage&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;lastmod&amp;#34;: &amp;#34;2023-11-10T15:10:42-08:00&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;publishdate&amp;#34;: &amp;#34;2023-11-10T15:10:42-08:00&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;tags&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;foo&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;bar&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ],
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;title&amp;#34;: &amp;#34;My first post&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Use the &lt;a href="https://gohugo.io/functions/fmt/printf/">&lt;code>printf&lt;/code>&lt;/a> function (render) or &lt;a href="https://gohugo.io/functions/fmt/warnf/">&lt;code>warnf&lt;/code>&lt;/a> function (log to console) to inspect simple data structures. The layout string below displays both value and data type.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-go-html-template" data-lang="go-html-template">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">$value&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">:=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">42&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">{{&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">printf&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s">&amp;#34;%[1]v (%[1]T)&amp;#34;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nx">$value&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="cp">}}&lt;/span> → 42 (int)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Deprecation</title><link>https://gohugo.io/troubleshooting/deprecation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/deprecation/</guid><description>&lt;p>When a project &lt;em>deprecates&lt;/em> something, they are telling its users:&lt;/p>
+&lt;ol>
+&lt;li>Don&amp;rsquo;t use Thing One anymore.&lt;/li>
+&lt;li>Use Thing Two instead.&lt;/li>
+&lt;li>We&amp;rsquo;re going to remove Thing One at some point in the future.&lt;/li>
+&lt;/ol>
+&lt;p>Common &lt;a href="https://en.wikipedia.org/wiki/Deprecation" rel="external">reasons for deprecation&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>A feature has been replaced by a more powerful alternative.&lt;/li>
+&lt;li>A feature contains a design flaw.&lt;/li>
+&lt;li>A feature is considered extraneous, and will be removed in the future in order to simplify the system as a whole.&lt;/li>
+&lt;li>A future version of the software will make major structural changes, making it impossible or impractical to support older features.&lt;/li>
+&lt;li>Standardization or increased consistency in naming.&lt;/li>
+&lt;li>A feature that once was available only independently is now combined with its co-feature.&lt;/li>
+&lt;/ul>
+&lt;p>After the project team deprecates something in code, Hugo will:&lt;/p></description></item><item><title>Performance</title><link>https://gohugo.io/troubleshooting/performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/performance/</guid><description>&lt;h2 id="virus-scanning">Virus scanning &lt;a class="header-link" href="#virus-scanning">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Virus scanners are an essential component of system protection, but the performance impact can be severe for applications like Hugo that frequently read and write to disk. For example, with Microsoft Defender Antivirus, build times for some sites may increase by 400% or more.&lt;/p></description></item><item><title>Frequently asked questions</title><link>https://gohugo.io/troubleshooting/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/troubleshooting/faq/</guid><description>&lt;p>Hugo’s &lt;a href="https://discourse.gohugo.io" rel="external">forum&lt;/a> is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about &lt;a href="https://discourse.gohugo.io/t/requesting-help/9132" rel="external">requesting help&lt;/a> before asking your first question.&lt;/p>
+&lt;p>These are just a few of the questions most frequently asked by new users.&lt;/p>
+&lt;h6 id="an-error-message-indicates-that-a-feature-is-not-available-why">An error message indicates that a feature is not available. Why? &lt;a class="header-link" href="#an-error-message-indicates-that-a-feature-is-not-available-why">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h6>
+&lt;p>Hugo is available in two editions: standard and extended. With the extended edition you can (a) encode to the WebP format when processing images, and (b) transpile Sass to CSS using the embedded LibSass transpiler. The extended edition is not required to use the Dart Sass transpiler.&lt;/p></description></item></channel></rss>

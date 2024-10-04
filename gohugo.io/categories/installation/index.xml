@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on Hugo</title><link>https://gohugo.io/categories/installation/</link><description>Recent content in Installation on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS</title><link>https://gohugo.io/installation/macos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/installation/macos/</guid><description>&lt;p>&lt;/p>
+&lt;h2 id="editions">Editions &lt;a class="header-link" href="#editions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo is available in two editions: standard and extended. With the extended edition you can:&lt;/p>
+&lt;ul>
+&lt;li>Encode to the WebP format when &lt;a href="https://gohugo.io/content-management/image-processing/">processing images&lt;/a>. You can decode WebP images with either edition.&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/">Transpile Sass to CSS&lt;/a> using the embedded LibSass transpiler. The extended edition is not required to use the &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">Dart Sass&lt;/a> transpiler.&lt;/li>
+&lt;/ul>
+&lt;p>We recommend that you install the extended edition.&lt;/p></description></item><item><title>Linux</title><link>https://gohugo.io/installation/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/installation/linux/</guid><description>&lt;p>&lt;/p>
+&lt;h2 id="editions">Editions &lt;a class="header-link" href="#editions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo is available in two editions: standard and extended. With the extended edition you can:&lt;/p>
+&lt;ul>
+&lt;li>Encode to the WebP format when &lt;a href="https://gohugo.io/content-management/image-processing/">processing images&lt;/a>. You can decode WebP images with either edition.&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/">Transpile Sass to CSS&lt;/a> using the embedded LibSass transpiler. The extended edition is not required to use the &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">Dart Sass&lt;/a> transpiler.&lt;/li>
+&lt;/ul>
+&lt;p>We recommend that you install the extended edition.&lt;/p></description></item><item><title>Windows</title><link>https://gohugo.io/installation/windows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/installation/windows/</guid><description>&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>Hugo v0.121.1 and later require at least Windows 10 or Windows Server 2016.&lt;/p>
+
+ &lt;/div>
+&lt;/aside>
+
+&lt;p>&lt;/p>
+&lt;h2 id="editions">Editions &lt;a class="header-link" href="#editions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo is available in two editions: standard and extended. With the extended edition you can:&lt;/p>
+&lt;ul>
+&lt;li>Encode to the WebP format when &lt;a href="https://gohugo.io/content-management/image-processing/">processing images&lt;/a>. You can decode WebP images with either edition.&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/">Transpile Sass to CSS&lt;/a> using the embedded LibSass transpiler. The extended edition is not required to use the &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">Dart Sass&lt;/a> transpiler.&lt;/li>
+&lt;/ul>
+&lt;p>We recommend that you install the extended edition.&lt;/p></description></item><item><title>BSD</title><link>https://gohugo.io/installation/bsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/installation/bsd/</guid><description>&lt;p>&lt;/p>
+&lt;h2 id="editions">Editions &lt;a class="header-link" href="#editions">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo is available in two editions: standard and extended. With the extended edition you can:&lt;/p>
+&lt;ul>
+&lt;li>Encode to the WebP format when &lt;a href="https://gohugo.io/content-management/image-processing/">processing images&lt;/a>. You can decode WebP images with either edition.&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/">Transpile Sass to CSS&lt;/a> using the embedded LibSass transpiler. The extended edition is not required to use the &lt;a href="https://gohugo.io/hugo-pipes/transpile-sass-to-css/#dart-sass">Dart Sass&lt;/a> transpiler.&lt;/li>
+&lt;/ul>
+&lt;p>We recommend that you install the extended edition.&lt;/p></description></item></channel></rss>

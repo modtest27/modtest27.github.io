@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Getting Started on Hugo</title><link>https://gohugo.io/categories/getting-started/</link><description>Recent content in Getting Started on Hugo</description><generator>Hugo</generator><language>en</language><atom:link href="https://gohugo.io/categories/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick start</title><link>https://gohugo.io/getting-started/quick-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/quick-start/</guid><description>&lt;p>In this tutorial you will:&lt;/p>
+&lt;ol>
+&lt;li>Create a site&lt;/li>
+&lt;li>Add content&lt;/li>
+&lt;li>Configure the site&lt;/li>
+&lt;li>Publish the site&lt;/li>
+&lt;/ol>
+&lt;h2 id="prerequisites">Prerequisites &lt;a class="header-link" href="#prerequisites">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Before you begin this tutorial you must:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://gohugo.io/installation/">Install Hugo&lt;/a> (extended edition, v0.112.0 or later)&lt;/li>
+&lt;li>&lt;a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" rel="external">Install Git&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>You must also be comfortable working from the command line.&lt;/p></description></item><item><title>Basic usage</title><link>https://gohugo.io/getting-started/usage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/usage/</guid><description>&lt;h2 id="test-your-installation">Test your installation &lt;a class="header-link" href="#test-your-installation">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>After &lt;a href="https://gohugo.io/installation/">installing&lt;/a> Hugo, test your installation by running:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You should see something like:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">hugo v0.123.0-3c8a4713908e48e6523f058ca126710397aa4ed5+extended linux/amd64 BuildDate=2024-02-19T16:32:38Z VendorInfo=gohugoio
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="display-available-commands">Display available commands &lt;a class="header-link" href="#display-available-commands">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>To see a list of the available commands and flags:&lt;/p></description></item><item><title>Directory structure</title><link>https://gohugo.io/getting-started/directory-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/directory-structure/</guid><description>&lt;h2 id="site-skeleton">Site skeleton &lt;a class="header-link" href="#site-skeleton">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo generates a project skeleton when you create a new site. For example, this command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">hugo new site my-site
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Creates this directory structure:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-txt" data-lang="txt">&lt;span class="line">&lt;span class="cl">my-site/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── archetypes/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ └── default.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── assets/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── content/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── data/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── i18n/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── layouts/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── static/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── themes/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── hugo.toml &amp;lt;-- site configuration
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Depending on requirements, you may wish to organize your site configuration into subdirectories:&lt;/p></description></item><item><title>Configure Hugo</title><link>https://gohugo.io/getting-started/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/configuration/</guid><description>&lt;h2 id="configuration-file">Configuration file &lt;a class="header-link" href="#configuration-file">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Create a site configuration file in the root of your project directory, naming it &lt;code>hugo.toml&lt;/code>, &lt;code>hugo.yaml&lt;/code>, or &lt;code>hugo.json&lt;/code>, with that order of precedence.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">my-project/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── hugo.toml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+
+&lt;aside>
+ &lt;div class="admonition-content bl bw2 b--blue" >
+ &lt;p>With v0.109.0 and earlier the basename of the site configuration file was &lt;code>config&lt;/code> instead of &lt;code>hugo&lt;/code>. You can use either, but should transition to the new naming convention when practical.&lt;/p></description></item><item><title>Configure markup</title><link>https://gohugo.io/getting-started/configuration-markup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/configuration-markup/</guid><description>&lt;h2 id="default-handler">Default handler &lt;a class="header-link" href="#default-handler">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;p>Hugo uses &lt;a href="https://github.com/yuin/goldmark/" rel="external">Goldmark&lt;/a> to render Markdown to HTML.&lt;/p>
+
+&lt;div class="code relative" id="hugo">
+ &lt;div class="code-nav flex flex-nowrap items-stretch">
+ &lt;div class="san-serif f6 dib lh-solid pl2 pv2 mr2">
+ hugo.
+ &lt;/div>
+ &lt;button
+ data-toggle-tab="yaml"
+ class="tab-button active ba san-serif f6 dib lh-solid ph2 pv2">
+ yaml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="toml"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ toml
+ &lt;/button>
+ &amp;nbsp;
+ &lt;button
+ data-toggle-tab="json"
+ class="tab-button ba san-serif f6 dib lh-solid ph2 pv2">
+ json
+ &lt;/button>
+ &amp;nbsp;
+ &lt;/div>
+ &lt;div class="tab-content">
+ &lt;div
+ data-pane="yaml"
+ class="code-copy-content nt3 tab-pane active">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">markup&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">defaultMarkdownHandler&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">goldmark&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="toml"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">markup&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">defaultMarkdownHandler&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;goldmark&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;div
+ data-pane="json"
+ class="code-copy-content nt3 tab-pane ">
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;markup&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;defaultMarkdownHandler&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;goldmark&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Files with the &lt;code>.md&lt;/code> or &lt;code>.markdown&lt;/code> extension are processed as Markdown, provided that you have not specified a different &lt;a href="https://gohugo.io/content-management/formats/#formats">content format&lt;/a> using the &lt;code>markup&lt;/code> field in front matter.&lt;/p></description></item><item><title>Glossary of terms</title><link>https://gohugo.io/getting-started/glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/glossary/</guid><description>&lt;p>&lt;a href="https://gohugo.io/getting-started/glossary/#action">A&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#bool">B&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#cache">C&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#default-sort-order">D&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#environment">E&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#field">F&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#global-resource">G&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#headless-bundle">H&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#identifier">I&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#kind">K&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#layout">L&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#map">M&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#node">N&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#object">O&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#page-bundle">P&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#regular-page">R&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#scalar">S&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#taxonomic-weight">T&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#unmarshal">U&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#variable">V&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#walk">W&lt;/a> 
+&lt;a href="https://gohugo.io/getting-started/glossary/#zero-time">Z&lt;/a> &lt;/p>
+&lt;h6 id="action">action &lt;a class="header-link" href="#action">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h6>
+&lt;p>See &lt;a href="https://gohugo.io/getting-started/glossary/#template-action">template action&lt;/a>.&lt;/p>
+&lt;h6 id="archetype">archetype &lt;a class="header-link" href="#archetype">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h6>
+&lt;p>A template for new content. See &lt;a href="https://gohugo.io/content-management/archetypes/">details&lt;/a>.&lt;/p>
+&lt;h6 id="argument">argument &lt;a class="header-link" href="#argument">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h6>
+&lt;p>A &lt;a href="https://gohugo.io/getting-started/glossary/#scalar">scalar&lt;/a>, &lt;a href="https://gohugo.io/getting-started/glossary/#array">array&lt;/a>, &lt;a href="https://gohugo.io/getting-started/glossary/#slice">slice&lt;/a>, &lt;a href="https://gohugo.io/getting-started/glossary/#map">map&lt;/a>, or &lt;a href="https://gohugo.io/getting-started/glossary/#object">object&lt;/a> passed to a &lt;a href="https://gohugo.io/getting-started/glossary/#function">function&lt;/a>, &lt;a href="https://gohugo.io/getting-started/glossary/#method">method&lt;/a>, or &lt;a href="https://gohugo.io/getting-started/glossary/#shortcode">shortcode&lt;/a>.&lt;/p></description></item><item><title>External learning resources</title><link>https://gohugo.io/getting-started/external-learning-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gohugo.io/getting-started/external-learning-resources/</guid><description>&lt;h2 id="books">Books &lt;a class="header-link" href="#books">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h2>
+&lt;h3 id="hugo-in-action">Hugo In Action &lt;a class="header-link" href="#hugo-in-action">&lt;svg class="fill-current o-60 hover-accent-color-light" height="22px" viewBox="0 0 24 24" width="22px" xmlns="http://www.w3.org/2000/svg">&lt;path d="M0 0h24v24H0z" fill="none"/>&lt;path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>&lt;/svg>&lt;/a>&lt;/h3>
+&lt;p>Hugo in Action is a step-by-step guide to using Hugo to create static websites. Working with a complete example website and source code samples, you&amp;rsquo;ll learn how to build and host a low-maintenance, high-performance site that will wow your users and stay stable without relying on a third-party server.&lt;/p></description></item></channel></rss>
