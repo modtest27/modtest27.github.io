@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_festive-gift-boxes.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/give-sleepy-owl-gift-boxes-this-festive-season</id>
+    <published>2022-10-06T10:26:38+05:30</published>
+    <updated>2022-10-27T13:34:11+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/give-sleepy-owl-gift-boxes-this-festive-season"/>
+    <title>Give Sleepy Owl Gift Boxes This Festive Season</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>The most bright and vivacious time of the year is here!</p>]]>
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/perks.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-07-01T11:57:58+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817559599</id>
+    <published>2024-07-01T11:57:58+05:30</published>
+    <updated>2024-07-01T11:57:58+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-dark-roast"/>
+    <title>Cold Brew Packs / Dark Roast</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/1_12.jpg?v=1665034692"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-dark-roast">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">This flavour is especially made for those who like their coffee strong and rich. As the name suggests, this Dark Roast Cold Brew flavour brings you a deep roast of our 100% Arabica coffee beans, which makes it extremely chocolatey. The longer you leave this one to brew, the more intense it will taste in every sip you take. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBDR</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBDR</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBDR</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/7116968689711</id>
+    <published>2022-08-22T11:33:54+05:30</published>
+    <updated>2022-08-22T11:33:54+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ultimate-hot-bomb"/>
+    <title>The Ultimate Hot Bomb</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/AssortedHotbrew05_LatteHotbrew1.jpg?v=1662627779"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            800.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>A promise of flavour in every cup! This combo contains our Latte Brew Bags that brew in 5 minutes and hit the right cord. To add to that, we have our Assorted Hot Brew Range which contains all our classic flavours in one box- Original, Dark Roast, Hazelnut, Cinnamon and French Vanilla.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7116968689711</id>
+      <title>Default Title</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>1HBA+1HBL</s:sku>
+      <s:grams>920</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/7086203174959</id>
+    <published>2022-07-25T12:28:49+05:30</published>
+    <updated>2022-07-25T12:28:49+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-spice-bomb-combo"/>
+    <title>The Spice Bomb Combo</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Cinnamon_2.jpg?v=1659414771"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            1000.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Spice up your coffee with a hint of sweet and woody Cinnamon. Our Spice Bomb combo offers both our classics- 100% Arabica Hot and Cold Brew in Cinnamon Flavour. Want it cold, brew it overnight. Want it hot, brew it under 5 minutes.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7086203174959</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>1CBC+1HBC</s:sku>
+      <s:grams>920</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6773685157935</id>
+    <published>2021-10-11T14:15:46+05:30</published>
+    <updated>2021-10-11T14:15:46+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/filter-coffee-classic-kaapi"/>
+    <title>Filter Coffee / Classic Kaapi</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/ClassicKaapi_1.jpg?v=1662562676"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1050.00
+            <a href="https://sleepyowl.co/products/filter-coffee-classic-kaapi">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>An authentic blend of Robusta and chicory makes a strong coffee concentrate without any equipment! </p>
+<!-- split --> 85% Robusta • 15% Chicory</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>filtercoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBCK</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBCK</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>3HBCK</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817494063</id>
+    <published>2021-10-11T14:15:39+05:30</published>
+    <updated>2021-10-11T14:15:39+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-caramel"/>
+    <title>Cold Brew Packs / Caramel</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Caramel_3827d730-9714-41a5-85dc-2778348a2b10.jpg?v=1662561160"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-caramel">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;">Caramel cold brew coffee has a nice ring to it doesn’t it? Well, that’s not the only nice thing about this Cold Brew coffee. It’s a flavour that is rich, bold and very nutty - all things pointing to a cold brew that you have to try. The chocolatey notes of the 100% Arabica beans compliment the sweet and creamy notes of real caramel. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBCA</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBCA</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBCA</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4876784992303</id>
+    <published>2021-10-11T14:14:08+05:30</published>
+    <updated>2021-10-11T14:14:08+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/latte"/>
+    <title>Latte</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Latte_422ca96d-08f9-44e4-bb75-af29bc579d28.jpg?v=1662562589"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/latte">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Designed from scratch by our baristas to taste great with warm milk. A blend of select premium beans makes a strong and smooth Latte, in just 5 minutes.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBL</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBL</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBL</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://feelgrounded.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://feelgrounded.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://feelgrounded.com/collections/accessories.atom"/>
+  <title>Grounded </title>
+  <updated>2024-07-02T15:36:50-04:00</updated>
+  <author>
+    <name>Grounded </name>
+  </author>
+  <entry>
+    <id>https://feelgrounded.com/products/7942408732913</id>
+    <published>2024-07-02T15:36:50-04:00</published>
+    <updated>2024-07-02T15:36:50-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/rosy-soil"/>
+    <title>Rosy Indoor Potting Soil</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/1_d8653621-8cce-4db0-b5b3-44a0563c36ed.png?v=1719948858"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            17.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Get right to the roots of plant health and growth with high-quality soil full of natural materials beloved by your houseplants. Healthy and weak greenery alike benefits from this robust soil mix. Plus, it’s sourced + manufactured thoughtfully, with the planet in mind.<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7942408732913</id>
+      <title>Default Title</title>
+      <s:price currency="USD">17.00</s:price>
+      <s:sku>Rosystandard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7837787947249</id>
+    <published>2024-01-29T19:49:00-05:00</published>
+    <updated>2024-01-29T19:49:00-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/black-mister"/>
+    <title>Matte Black Mister</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/26.png?v=1707342489"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            32.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><b>FUNCTION</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Elegantly compact, this mister makes the perfect plant, shelf, and tabletop accessory. Each pump delivers a generous mist, boosting humidity and keeping your plants healthy + happy.  </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Includes one </span><span style="font-weight: 400;">5.75” H x 3.5” W</span>
+</li>
+<li><span style="font-weight: 400;">Matte Black (brass) mister</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Holds 10 oz of water</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HOW TO USE</b></p>
+</td>
+<td>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Fill Matte Black Mister with non-tap water</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Generously mist leaves at least 3-4x per week</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Refill as needed.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Wash occasionally with warm water and soap. </span></li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>RECOMMENDED FOR</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Most indoor homes are too dry for our tropical plants, especially when we utilize A/C and heat sources. Misting the leaves is a great way to accommodate their humidity needs. Mist all your tropical plants, including:</span></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/golden-pothos?_pos=1&amp;_sid=e9b07dab4&amp;_ss=r"><span style="font-weight: 400;">Pothos</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/lemon-lime-maranta-plant?_pos=4&amp;_sid=4d112bab9&amp;_ss=r"><span style="font-weight: 400;">Marantas</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/rattlesnake-plant?_pos=5&amp;_sid=fabc3e2df&amp;_ss=r"><span style="font-weight: 400;">Calatheas</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/neanthe-palm?_pos=1&amp;_sid=3330d0af7&amp;_ss=r"><span style="font-weight: 400;">Neanthe Palm</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/philodendron-cordatum-1?_pos=1&amp;_sid=f6c649462&amp;_ss=r"><span style="font-weight: 400;">Philodendrons</span></a></li>
+</ul>
+<br>
+<p><span style="font-weight: 400;">Cacti and succulents should be kept away from sources of humidity.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Gifts</s:tag>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7837787947249</id>
+      <title>Default Title</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7636968177905</id>
+    <published>2023-12-18T15:59:44-05:00</published>
+    <updated>2023-12-18T15:59:44-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/gold-mister"/>
+    <title>Gold Mister</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/35.png?v=1707341000"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            32.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><b>FUNCTION</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Elegantly compact, this mister makes the perfect plant, shelf, and tabletop accessory. Each pump delivers a generous mist, boosting humidity and keeping your plants healthy + happy.  </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Includes one </span><span style="font-weight: 400;">5.75” H x 3.5” W</span>
+</li>
+<li><span style="font-weight: 400;">Brass mister</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Holds 10 oz of water</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HOW TO USE</b></p>
+</td>
+<td>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Fill Gold Mister with non-tap water</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Generously mist leaves at least 3-4x per week</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Refill as needed.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Wash occasionally with warm water and soap. </span></li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>RECOMMENDED FOR</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Most indoor homes are too dry for our tropical plants, especially when we utilize A/C and heat sources. Misting the leaves is a great way to accommodate their humidity needs. Mist all your tropical plants, including:</span></p>
+<ul>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/golden-pothos?_pos=1&amp;_sid=e9b07dab4&amp;_ss=r"><span style="font-weight: 400;">Pothos</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/lemon-lime-maranta-plant?_pos=4&amp;_sid=4d112bab9&amp;_ss=r"><span style="font-weight: 400;">Marantas</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/rattlesnake-plant?_pos=5&amp;_sid=fabc3e2df&amp;_ss=r"><span style="font-weight: 400;">Calatheas</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/neanthe-palm?_pos=1&amp;_sid=3330d0af7&amp;_ss=r"><span style="font-weight: 400;">Neanthe Palm</span></a></li>
+<li style="font-weight: 400;"><a href="https://feelgrounded.com/products/philodendron-cordatum-1?_pos=1&amp;_sid=f6c649462&amp;_ss=r"><span style="font-weight: 400;">Philodendrons</span></a></li>
+</ul>
+<br>
+<p><span style="font-weight: 400;">Cacti and succulents should be kept away from sources of humidity.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Gifts</s:tag>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7636968177905</id>
+      <title>Default Title</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>GOLDMISTER</s:sku>
+      <s:grams>227</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/8026705527025</id>
+    <published>2023-12-12T17:20:56-05:00</published>
+    <updated>2023-12-12T17:20:56-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/clay-line-work-planter"/>
+    <title>Herati Planter</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_2_copy2.png?v=1707341999"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            28.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Bring one-of-a-kind functional art into your green space. Glazed clay helps retain a moisture balance within the soil, so you're never doing more plant chores than needed.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/8026705527025</id>
+      <title>Default Title</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>Herati</s:sku>
+      <s:grams>454</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7601579884785</id>
+    <published>2023-11-28T18:46:26-05:00</published>
+    <updated>2023-11-28T18:46:26-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/self-watering-crystal"/>
+    <title>Self-Watering Crystal</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/IMG_4386-1213.jpg?v=1707345834"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            18.00 - 48.00
+            <a href="https://feelgrounded.com/products/self-watering-crystal">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">This sleek, glass crystal takes the worry of under-watering off your hands. With a cork bottom, it intelligently trickles water into the soil over the course of 3-4 days. Say hello, new growth!</span></p>
+</td>
+</tr>
+</tbody>
+</table></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Gifts</s:tag>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601579884785</id>
+      <title>1</title>
+      <s:price currency="USD">18.00</s:price>
+      <s:sku>WATERINGCRYSTAL</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601579884785</id>
+      <title>Set of 3</title>
+      <s:price currency="USD">48.00</s:price>
+      <s:sku>3wateringcry</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7923082068209</id>
+    <published>2023-04-06T18:45:27-04:00</published>
+    <updated>2023-04-06T18:45:27-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/gnat-traps"/>
+    <title>Gnat Traps</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_1_64102583-8763-4bcc-a367-940800d89ffd.png?v=1707340943"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            12.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Fungus Gnats happen to the best of us! Make life easier and get your plant back to health by setting up quick sticky traps that rid you of the nuisance.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7923082068209</id>
+      <title>Default Title</title>
+      <s:price currency="USD">12.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7749917245681</id>
+    <published>2022-07-19T19:49:56-04:00</published>
+    <updated>2022-07-19T19:49:56-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/mosquito-bits"/>
+    <title>Mosquito Bits</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_9.png?v=1707343490"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><b>DESCRIPTION</b></p>
+</td>
+<td>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Female fungus gnats lay hundreds of eggs that become flying adults within just two weeks. Get ahead of the infestation using the bacteria found in Mosquito Bits, naturally fatal to the larvae of fungus gnats and mosquitoes.</span></p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Bits are safe for use on indoor plants and in the garden. These natural bacteria do not cause harm to beneficial insects such as bees and ladybugs. </span>This product is also safe for use around pets, people, and animals.</p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1">Active Ingredient: Bacillus thuringiensis subspecies israelensis (BTI), a naturally occurring bacterium.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>BENEFITS</b></p>
+</td>
+<td>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Mosquito Bits eliminate fungus gnat eggs and larvae inside soil, effectively targeting fungus gnat infestations caused by overwatering, poor drainage, root rot, and spread from other plants. </span></p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Learn more about the causes and signs of fungus gnats<span> </span></span><a href="https://feelgrounded.com/blogs/resources/how-to-treat-plants-with-fungus-gnats?_pos=1&amp;_sid=024d6d352&amp;_ss=r" data-mce-fragment="1" data-mce-href="https://feelgrounded.com/blogs/resources/how-to-treat-plants-with-fungus-gnats?_pos=1&amp;_sid=024d6d352&amp;_ss=r"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">here</span></a><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">One 8 oz Mosquito Bits package</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HOW TO USE</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Easily treat your plants with mosquito bits using one of the below methods:</span></p>
+<p> <br></p>
+<p><b>DIRECT SOIL METHOD:</b></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shake mosquito bits directly onto the soil’s surface</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Gently work some of the bits into the top inches of soil</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Follow with water and resume its usual care schedule</span></li>
+</ol>
+<p> <br></p>
+<p><span style="font-weight: 400;">*Repeat for the next 2-3 waterings, or weekly, on your affected plants. Continue use if needed.</span></p>
+<p> <br></p>
+<p> <br></p>
+<p><b>BITS “TEA” WATER</b></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Create a tea mixture using two tablespoons of bits per half gallon of water (double these measurements for large treatments) </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Let the bits soak in the water for 30-60 minutes</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Pour directly onto the soil of your affected plants  </span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Pour the bits with the water, scoop them out before pouring, or create a tea bag by repurposing a cut stocking or old t-shirt</span></li>
+</ul>
+<p> <br></p>
+<p><span style="font-weight: 400;">*Repeat for the next 2-3 waterings, or weekly, on your affected plants. Continue use if needed.</span></p>
+<p><span style="font-weight: 400;">*Use tea mixture right away.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br data-mce-fragment="1"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7749917245681</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku>MOSBITS</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7601839931633</id>
+    <published>2022-03-23T20:05:47-04:00</published>
+    <updated>2022-03-23T20:05:47-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/terracotta-self-watering-planter"/>
+    <title>Cylinder Terracotta Self-Watering Planter</title>
+    <s:type>Planter</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/22.png?v=1707340787"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Planter<br>
+        <strong>Price: </strong>
+            22.00 - 32.00
+            <a href="https://feelgrounded.com/products/terracotta-self-watering-planter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">FUNCTION</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Designed to make you feel like an expert, this intelligent planter gradually feeds water into the soil as needed. Made from terra cotta clay, its breathable and minimal design adds an artistic enhancement to your shelf or tabletop.</span></p>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">WHAT’S INCLUDED</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Arriving to you in careful packaging:</span></p>
+<ul data-mce-fragment="1">
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">
+<span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">One self-watering planter </span><b data-mce-fragment="1">6” x 7”</b>
+</li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Includes a saucer/water reservoir, matching in size + color</span></li>
+</ul>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">HOW TO USE</b></p>
+</td>
+<td data-mce-fragment="1">
+<ol data-mce-fragment="1">
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Transfer the plant of your choice into the planter.</span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">
+<span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Saturate the soil fully with non-tap water </span><b data-mce-fragment="1">(only necessary when first planted)</b><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">.</span>
+</li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Fill the saucer reservoir with non-tap water and refill as necessary.</span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">On occasion, water generously from above the soil to flush salts and minerals that collect in the  soil.</span></li>
+</ol>
+<br data-mce-fragment="1">
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Notes: </span></p>
+<ul data-mce-fragment="1">
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">This planter can also be used as a standard planter + drainage tray. </span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Always default to each plant’s specific care needs when refilling the water reservoir. Soil in bright light will dry faster than low light and tropical plants typically need water more frequently than desert plants. </span></li>
+</ul>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">RECOMMENDED FOR</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">The self-watering planter is great for all plants! We especially recommend it for:</span></p>
+<ul data-mce-fragment="1">
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Plants that prefer moist soil</span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Care while traveling</span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">Forgetful waterers</span></li>
+<li data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;"><span data-mce-fragment="1" style="font-weight: 400;" data-mce-style="font-weight: 400;">A gift for first-time plant caretakers</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601839931633</id>
+      <title>4-in</title>
+      <s:price currency="USD">22.00</s:price>
+      <s:sku>SLFWATERINGTERRA4IN-1</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601839931633</id>
+      <title>6-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>SLFWATERINGTERRA6IN-2</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7601830854897</id>
+    <published>2022-03-23T20:03:42-04:00</published>
+    <updated>2022-03-23T20:03:42-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/matte-black-self-watering-planter"/>
+    <title>Cylinder Black Self-Watering Planter</title>
+    <s:type>Planter</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/21.png?v=1707340712"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Planter<br>
+        <strong>Price: </strong>
+            28.00 - 32.00
+            <a href="https://feelgrounded.com/products/matte-black-self-watering-planter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">FUNCTION</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Designed to make you feel like an expert, this intelligent planter gradually feeds water into the soil as needed. Made from terra cotta clay, its breathable and minimal design adds an artistic enhancement to your shelf or tabletop.</span></p>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">WHAT’S INCLUDED</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Arriving to you in careful packaging:</span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">
+<span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">One self-watering planter<strong> 4.5" x 5"</strong> or </span><b data-mce-fragment="1">6” x 7”</b>
+</li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Includes a saucer/water reservoir, matching in size + color</span></li>
+</ul>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">HOW TO USE</b></p>
+</td>
+<td data-mce-fragment="1">
+<ol data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Transfer the plant of your choice into the planter.</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">
+<span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Saturate the soil fully with non-tap water </span><b data-mce-fragment="1">(only necessary when first planted)</b><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">.</span>
+</li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Fill the saucer reservoir with non-tap water and refill as necessary.</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">On occasion, water generously from above the soil to flush salts and minerals that collect in the  soil.</span></li>
+</ol>
+<br data-mce-fragment="1">
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Notes: </span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">This planter can also be used as a standard planter + drainage tray. </span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Always default to each plant’s specific care needs when refilling the water reservoir. Soil in bright light will dry faster than low light and tropical plants typically need water more frequently than desert plants. </span></li>
+</ul>
+</td>
+</tr>
+<tr data-mce-fragment="1">
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><b data-mce-fragment="1">RECOMMENDED FOR</b></p>
+</td>
+<td data-mce-fragment="1">
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">The self-watering planter is great for all plants! We especially recommend it for:</span></p>
+<ul data-mce-fragment="1">
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Plants that prefer moist soil</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Care while traveling</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Forgetful waterers</span></li>
+<li style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">A gift for first-time plant caretakers</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601830854897</id>
+      <title>5-in</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>SLFWATERBLK5</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601830854897</id>
+      <title>7-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>SLFWATERBLK7</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/4805850759191</id>
+    <published>2021-12-18T09:26:51-05:00</published>
+    <updated>2021-12-18T09:26:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/matte-white-planter"/>
+    <title>Matte White Planter</title>
+    <s:type>Planter</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_7.png?v=1707343179"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Planter<br>
+        <strong>Price: </strong>
+            22.00 - 32.00
+            <a href="https://feelgrounded.com/products/matte-white-planter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table data-mce-selected="1">
+<tbody>
+<tr>
+<td data-mce-selected="1">
+<p><b>DESCRIPTION</b></p>
+</td>
+<td data-mce-selected="1">
+<p><span style="font-weight: 400;" data-mce-style="font-weight: 400;">Our 7-inch White Planter is made of 100% premium ceramic, hand-finished in a matte glaze. Equipped with a drainage hole and removable drainage pan, this sleek design is fantastic for plants that appreciate well-draining, moist soil. </span></p>
+</td>
+</tr>
+<tr>
+<td data-mce-selected="1">
+<p><b>COMPATIBLE PLANTS</b></p>
+</td>
+<td data-mce-selected="1">
+<p><span style="font-weight: 400;" data-mce-style="font-weight: 400;">Planters should be the same size or up to 2 inches larger than your current size. The Black Planter would pair well with the:</span></p>
+<p><span style="font-weight: 400;" data-mce-style="font-weight: 400;"></span><a href="https://grounded-plants.com/products/heart-fern" data-mce-href="https://grounded-plants.com/products/heart-fern"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Heart Fern</span></a></p>
+<p><a href="https://grounded-plants.com/products/philodendron-black-raven" data-mce-href="https://grounded-plants.com/products/philodendron-black-raven"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Philodendron Black Cardinal </span></a></p>
+<p><a href="https://grounded-plants.com/products/philodendron-cordatum-1" data-mce-href="https://grounded-plants.com/products/philodendron-cordatum-1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Philodendron Cordatum</span></a></p>
+<p><a href="https://grounded-plants.com/products/golden-pothos" data-mce-href="https://grounded-plants.com/products/golden-pothos"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Golden Pothos</span></a></p>
+<p><a href="https://grounded-plants.com/products/marble-pothos-1" data-mce-href="https://grounded-plants.com/products/marble-pothos-1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Marble Pothos</span></a></p>
+<p><a href="https://grounded-plants.com/products/neon-pothos-1" data-mce-href="https://grounded-plants.com/products/neon-pothos-1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Neon Pothos </span></a></p>
+<p><a href="https://grounded-plants.com/products/jade-pothos" data-mce-href="https://grounded-plants.com/products/jade-pothos"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Jade Pothos</span></a></p>
+<p><a href="https://grounded-plants.com/products/jade-plant" data-mce-href="https://grounded-plants.com/products/jade-plant"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Jade Plant</span></a></p>
+<p><a href="https://grounded-plants.com/products/rattlesnake-plant" data-mce-href="https://grounded-plants.com/products/rattlesnake-plant"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Rattlesnake Plant</span></a></p>
+<p><a href="https://grounded-plants.com/products/lemon-lime-maranta-plant" data-mce-href="https://grounded-plants.com/products/lemon-lime-maranta-plant"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Lemon Lime Maranta</span></a></p>
+<p><a href="https://grounded-plants.com/products/red-maranta" data-mce-href="https://grounded-plants.com/products/red-maranta"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Red Maranta </span></a></p>
+<p><a href="https://grounded-plants.com/products/neanthe-palm" data-mce-href="https://grounded-plants.com/products/neanthe-palm"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Neanthe Palm</span></a></p>
+<p><a href="https://grounded-plants.com/products/ponytail-palm" data-mce-href="https://grounded-plants.com/products/ponytail-palm"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Ponytail Palm</span></a></p>
+<p><a href="https://grounded-plants.com/products/neon-pothos-1" data-mce-href="https://grounded-plants.com/products/neon-pothos-1"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Sanseveria Zeylanica </span></a></p>
+<p><a href="https://grounded-plants.com/products/snake-plant"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">6-inch Sanseveria Laurentii</span></a></p>
+</td>
+</tr>
+</tbody>
+</table></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/4805850759191</id>
+      <title>5-in</title>
+      <s:price currency="USD">22.00</s:price>
+      <s:sku>DCMATTEW5</s:sku>
+      <s:grams>953</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/4805850759191</id>
+      <title>7-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>DCMATTEW7</s:sku>
+      <s:grams>1860</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7354455195889</id>
+    <published>2021-10-29T13:28:35-04:00</published>
+    <updated>2021-10-29T13:28:35-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/terracotta-planter"/>
+    <title>Terracotta Planter</title>
+    <s:type>Planter</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/30_eb1d371f-a8f5-4d88-b127-8bab64e0b218.png?v=1707346250"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Planter<br>
+        <strong>Price: </strong>
+            22.00 - 32.00
+            <a href="https://feelgrounded.com/products/terracotta-planter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<table>
+<tbody>
+<tr>
+<td>
+<p><b>DESCRIPTION</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Our 7-inch Terra Cotta Planter is made of 100% premium ceramic, hand-finished in a matte glaze. Equipped with a drainage hole and removable drainage pan, this sleek design is fantastic for plants that appreciate well-draining, moist soil. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>COMPATIBLE PLANTS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Planters should be the same size or up to 2 inches larger than your current size. The 7-inch Terra Cotta Planter would pair well with the:</span></p>
+<br>
+<p><span style="font-weight: 400;">6-inch Fiddle Leaf Fig Tree</span></p>
+<p><span style="font-weight: 400;">6-inch Heart Fern</span></p>
+<p><span style="font-weight: 400;">6-inch Philodendrons</span></p>
+<p><span style="font-weight: 400;">6-inch Pothos</span></p>
+<p><span style="font-weight: 400;">6-inch Rattlesnake Plant</span></p>
+<p><span style="font-weight: 400;">6-inch Marantas</span></p>
+<p><span style="font-weight: 400;">6-inch Neanthe Palm</span></p>
+<p><span style="font-weight: 400;">6-inch Norfolk Pine</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4>
+<br><br><br><br>
+</h4></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7354455195889</id>
+      <title>5-in</title>
+      <s:price currency="USD">22.00</s:price>
+      <s:sku>4INTERRACOTTA</s:sku>
+      <s:grams>1588</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7354455195889</id>
+      <title>7-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>7INTERRACOTTA-2</s:sku>
+      <s:grams>1588</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/6104696291511</id>
+    <published>2021-10-12T17:50:28-04:00</published>
+    <updated>2021-10-12T17:50:28-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/metallic-watering-can"/>
+    <title>Metallic Watering Can</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_1.png?v=1707335375"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            45.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><b>DESCRIPTION</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Our Metallic Watering Can is uniquely designed to be a functional + contemporary art piece. Made of stainless steel, it’s also rust-proof so you can rest assured, with water ready and on-hand. The sleek design and handle allow you to reach your plants at any angle with ease.</span></p>
+<br>
+<p><span style="font-weight: 400;">Measures 5 x 6 x 11 inches (12 x 15 x 28 cm). 1 liter capacity. </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<br><br>
+</h2></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6104696291511</id>
+      <title>Default Title</title>
+      <s:price currency="USD">45.00</s:price>
+      <s:sku>METALLIC-DC</s:sku>
+      <s:grams>907</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/4453105664023</id>
+    <published>2020-06-03T14:14:46-04:00</published>
+    <updated>2020-06-03T14:14:46-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/matte-black-planter"/>
+    <title>Matte Black Planter</title>
+    <s:type>Planter</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_4.png?v=1707342717"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Planter<br>
+        <strong>Price: </strong>
+            22.00 - 32.00
+            <a href="https://feelgrounded.com/products/matte-black-planter">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">Our 7-inch Black Planter is made of 100% premium ceramic, hand-finished in a matte glaze. Equipped with a drainage hole and removable drainage pan, this sleek design is fantastic for plants that appreciate well-draining, moist soil.<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/4453105664023</id>
+      <title>5-in</title>
+      <s:price currency="USD">22.00</s:price>
+      <s:sku>sku_HMtHj20QeUXFrk-1</s:sku>
+      <s:grams>1588</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/4453105664023</id>
+      <title>7-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>sku_HMtHj20QeUXFrk-2</s:sku>
+      <s:grams>1588</s:grams>
+    </s:variant>
+  </entry>
+</feed>

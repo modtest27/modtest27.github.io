@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/filter-coffee.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-09-30T16:55:44+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/9683936608555</id>
+    <published>2024-09-30T16:55:44+05:30</published>
+    <updated>2024-09-30T16:55:44+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-combo-pack"/>
+    <title>Instant Coffee Combo</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/OG_FV_GC_1.jpg?v=1727695218"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1190.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Why try one flavour, when you can try three? This combo pack has three flavours of our 100% Arabica instant coffee- Original, French Vanilla, and Hazelnut. The coffee is made using freeze-dried technology, it easily dissolves in hot or cold water or milk and comes in an airtight container for convenient storage. It’s nothing like you’ve had before. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9683936608555</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1190.00</s:price>
+      <s:sku>SOICOV GCMUG</s:sku>
+      <s:grams>1650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9623329734955</id>
+    <published>2024-08-09T17:05:54+05:30</published>
+    <updated>2024-08-09T17:05:54+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/french-vanilla-instant-coffee"/>
+    <title>French Vanilla Instant Coffee</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/jpg_1_2.jpg?v=1722621427"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            569.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Sweetness of french vanilla blends with chocolate notes of the 100% Arabica soluble crystals and fresh roasted coffee, made using freeze-dried technology. This flavour doesn’t have preservatives, and easily dissolves in hot or cold water or milk to give you delicious coffee in seconds. The airtight container keeps it fresh and makes it easy to store.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9623329734955</id>
+      <title>Default Title</title>
+      <s:price currency="INR">569.00</s:price>
+      <s:sku>SOICV</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9623330816299</id>
+    <published>2024-08-09T17:04:47+05:30</published>
+    <updated>2024-08-09T17:04:47+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-combo-pack"/>
+    <title>Instant Coffee Combo Pack</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/jpg_1_3.jpg?v=1722621532"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1699.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Why try one flavour, when you can try three? This combo pack has three flavours of our 100% Arabica instant coffee- Original, French Vanilla, and Hazelnut. The coffee is made using freeze-dried technology, it easily dissolves in hot or cold water or milk and comes in an airtight container for convenient storage. It’s nothing like you’ve had before. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9623330816299</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1699.00</s:price>
+      <s:sku>SOICOHV</s:sku>
+      <s:grams>1440</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9623269376299</id>
+    <published>2024-08-03T11:00:43+05:30</published>
+    <updated>2024-08-03T11:00:43+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/original-instant-coffee"/>
+    <title>Original Instant Coffee</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/jpg_1.jpg?v=1722620699"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            569.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Delicious coffee, ready in seconds. Our Original Instant Coffee has a natural chocolate flavour that comes from the 100% Arabica soluble crystals. It doesn’t have any preservatives and easily dissolves in hot or cold water, and even milk. It comes in an airtight container making it easy to store and keeps the coffee fresh.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9623269376299</id>
+      <title>Default Title</title>
+      <s:price currency="INR">569.00</s:price>
+      <s:sku>SOICO</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9623327572267</id>
+    <published>2024-08-02T23:24:13+05:30</published>
+    <updated>2024-08-02T23:24:13+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hazelnut-instant-coffee"/>
+    <title>Hazelnut Instant Coffee</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/jpg_1_1.jpg?v=1722621277"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            569.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Hazelnut is a universally loved flavour of coffee. This chocolatey-nutty flavour is made with our signature 100% Arabica soluble crystals. Hazelnut Instant Coffee is packed in an airtight container which keeps it fresh and doesn’t have any additives. It dissolves in hot or cold water or milk and is unlike any other flavour. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9623327572267</id>
+      <title>Default Title</title>
+      <s:price currency="INR">569.00</s:price>
+      <s:sku>SOICH</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555751502123</id>
+    <published>2024-07-16T15:02:54+05:30</published>
+    <updated>2024-07-16T15:02:54+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-48-instant-sachets"/>
+    <title>The Ground Coffee Mug &amp; Instant Pack of 48 Sachets</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/PO48_GC-Combo.jpg?v=1721122262"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            980.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Craving simply great coffee on the go? Look no further! Grab our new Coffee Mug made from leftover coffee grounds and Instant Coffee Sachets Pack of 48 containing 4 flavours; Original, French Vanilla, Hazelnut, Filter Kaapi at an unbeatable price. Enjoy your favorite coffee anytime, anywhere. Just tear open a sachet, add it to the mug, and pour hot water or milk. It’s that easy!<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555751502123</id>
+      <title>Default Title</title>
+      <s:price currency="INR">980.00</s:price>
+      <s:sku>MUG-GC SOICA48</s:sku>
+      <s:grams>460</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555414581547</id>
+    <published>2024-07-15T16:40:17+05:30</published>
+    <updated>2024-07-15T16:40:17+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-hot-brew-assorted"/>
+    <title>The Ground Coffee Mug &amp; Hot Brew Assorted</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_mug_assorted_HB.jpg?v=1720179606"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            900.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Now enjoy delicious coffee in a mug made of coffee! Whether you're travelling or having a quiet moment at home, our Hot Brew and Coffee Mug Combo is here to elevate your coffee experience. This super cool combo includes the Ground Coffee Mug and Hot Brew Assorted containing 5 flavours: Original, Dark Roast, Hazelnut, Cinnamon, and French Vanilla.<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555414581547</id>
+      <title>Default Title</title>
+      <s:price currency="INR">900.00</s:price>
+      <s:sku>MUG-GC HBA10</s:sku>
+      <s:grams>460</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555032965419</id>
+    <published>2024-07-05T17:14:23+05:30</published>
+    <updated>2024-07-05T17:14:23+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-2"/>
+    <title>The Ground Coffee Mug Combo</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_2_mugs.jpg?v=1720180151"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1000.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Our new Coffee Mug gives life to what was once meant for landfills. Made from leftover coffee grounds, it's more than just a mug, it's a statement – a daily reminder that small choices can create big change. Sip sustainably, one delicious drink at a time.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555032965419</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>MUG-GC-P2</s:sku>
+      <s:grams>490</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9550902264107</id>
+    <published>2024-07-05T11:11:16+05:30</published>
+    <updated>2024-07-05T11:11:16+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug"/>
+    <title>The Ground Coffee Mug</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_mug_1.jpg?v=1720175349"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            500.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Our new Coffee Mug, a collaboration with Made of Earth (MAE), gives life to what was once meant for landfills. Made from leftover coffee grounds, it's more than just a mug, it's a statement – a daily reminder that small choices can create big change. Sip sustainably, one delicious drink at a time.<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9550902264107</id>
+      <title>Default Title</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>MUG-GC</s:sku>
+      <s:grams>240</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6903555850287</id>
+    <published>2022-03-11T12:56:28+05:30</published>
+    <updated>2022-03-11T12:56:28+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-filter"/>
+    <title>Instant Filter Coffee</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Filterkaapi100gjar.jpg?v=1710227543"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            375.00 - 1125.00
+            <a href="https://sleepyowl.co/products/instant-coffee-filter">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Authentic South Indian Kaapi, ready in seconds. Enjoy a traditional cup of nutty goodness from the comfort of your home. This filter instant coffee comes in an airtight container to ensure it stays fresh and dissolves in hot or cold water or milk seamlessly. Made with a blend of robusta and chicory, it’s undeniably Kaapi and unbelievably easy. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>1 Glass Jar</title>
+      <s:price currency="INR">375.00</s:price>
+      <s:sku>SOICCK</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>2 Glass Jars</title>
+      <s:price currency="INR">750.00</s:price>
+      <s:sku>2SOICCK</s:sku>
+      <s:grams>980</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>3 Glass Jars</title>
+      <s:price currency="INR">1125.00</s:price>
+      <s:sku>3SOICCK</s:sku>
+      <s:grams>1440</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6773685157935</id>
+    <published>2021-10-11T14:15:46+05:30</published>
+    <updated>2021-10-11T14:15:46+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/filter-coffee-classic-kaapi"/>
+    <title>Filter Coffee / Classic Kaapi</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/ClassicKaapi_1.jpg?v=1662562676"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1050.00
+            <a href="https://sleepyowl.co/products/filter-coffee-classic-kaapi">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>An authentic blend of Robusta and chicory makes a strong coffee concentrate without any equipment! </p>
+<!-- split --> 85% Robusta • 15% Chicory</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>filtercoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBCK</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBCK</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>3HBCK</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://feelgrounded.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://feelgrounded.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://feelgrounded.com/collections/new-at-grounded.atom"/>
+  <title>Grounded </title>
+  <updated>2024-09-18T19:29:32-04:00</updated>
+  <author>
+    <name>Grounded </name>
+  </author>
+  <entry>
+    <id>https://feelgrounded.com/products/8640221774065</id>
+    <published>2024-09-18T19:29:32-04:00</published>
+    <updated>2024-09-18T19:29:32-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/grounded-yoga-mat"/>
+    <title>Grounded Yoga Mat (Pre-Sale)</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded </s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_39.png?v=1726701077"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded <br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            75.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="flex max-w-full flex-col flex-grow">
+<div data-message-author-role="assistant" data-message-id="a206f7f1-3c69-451f-b695-758e1d88b17a" dir="auto" class="min-h-[20px] text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>Elevate your practice with the sleek <strong>Grounded Yoga Mat</strong>, featuring a striking black-on-black design with our signature <strong>Grounded</strong> logo spread across the entirety of the mat. Perfect for performing yoga, breathwork, and meditation, this mat is crafted for durability, comfort, and style. Its non-slip surface ensures stability during even the most challenging poses, while the minimalist aesthetic connects you to a grounded, peaceful state of mind.</p>
+<p><strong>Preorder now</strong> at <a rel="noopener" href="http://feelgrounded.com" target="_new">feelgrounded.com</a> and get ready to deepen your practice with a mat that aligns with your journey of mindfulness and wellness.</p>
+<p><strong>All preorders will be shipped out Oct. 19th</strong></p>
+</div>
+</div>
+</div>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/8640221774065</id>
+      <title>Default Title</title>
+      <s:price currency="USD">75.00</s:price>
+      <s:sku>Grounded Yoga Mat</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/8439849189617</id>
+    <published>2024-07-02T15:55:25-04:00</published>
+    <updated>2024-07-02T15:55:25-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/neem-oil"/>
+    <title>Neem Oil</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_26.png?v=1719949574"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            12.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table height="132" style="width: 63.6605%;" data-mce-fragment="1">
+<tbody data-mce-fragment="1">
+<tr data-mce-fragment="1">
+<td style="width: 0.714296%;" data-mce-fragment="1"></td>
+<td style="width: 98.93%;" data-mce-fragment="1"></td>
+</tr>
+<tr data-mce-fragment="1">
+<td style="width: 0.714296%;" data-mce-fragment="1"></td>
+<td style="width: 98.93%;" data-mce-fragment="1"></td>
+</tr>
+<tr data-mce-fragment="1">
+<td style="width: 0.714296%;" data-mce-fragment="1"></td>
+<td style="width: 98.93%;" data-mce-fragment="1"></td>
+</tr>
+<tr data-mce-fragment="1">
+<td style="width: 0.714296%;" data-mce-fragment="1"></td>
+<td style="width: 98.93%;" data-mce-fragment="1"></td>
+</tr>
+<tr data-mce-fragment="1">
+<td style="width: 0.714296%;" data-mce-fragment="1"></td>
+<td style="width: 98.93%;" data-mce-fragment="1"></td>
+</tr>
+</tbody>
+</table>
+<p><meta charset="utf-8"><span>Having plant issues? This tree oil may be the solution. Neem Oil is a natural way to prevent and treat fungus issues, bacteria, and insects. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/8439849189617</id>
+      <title>Default Title</title>
+      <s:price currency="USD">12.00</s:price>
+      <s:sku>BotanicaNeemOil</s:sku>
+      <s:grams>227</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7942408732913</id>
+    <published>2024-07-02T15:36:50-04:00</published>
+    <updated>2024-07-02T15:36:50-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/rosy-soil"/>
+    <title>Rosy Indoor Potting Soil</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/1_d8653621-8cce-4db0-b5b3-44a0563c36ed.png?v=1719948858"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            17.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Get right to the roots of plant health and growth with high-quality soil full of natural materials beloved by your houseplants. Healthy and weak greenery alike benefits from this robust soil mix. Plus, it’s sourced + manufactured thoughtfully, with the planet in mind.<br></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7942408732913</id>
+      <title>Default Title</title>
+      <s:price currency="USD">17.00</s:price>
+      <s:sku>Rosystandard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/8026705527025</id>
+    <published>2023-12-12T17:20:56-05:00</published>
+    <updated>2023-12-12T17:20:56-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/clay-line-work-planter"/>
+    <title>Herati Planter</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_2_copy2.png?v=1707341999"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            28.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Bring one-of-a-kind functional art into your green space. Glazed clay helps retain a moisture balance within the soil, so you're never doing more plant chores than needed.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/8026705527025</id>
+      <title>Default Title</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>Herati</s:sku>
+      <s:grams>454</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7601579884785</id>
+    <published>2023-11-28T18:46:26-05:00</published>
+    <updated>2023-11-28T18:46:26-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/self-watering-crystal"/>
+    <title>Self-Watering Crystal</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/IMG_4386-1213.jpg?v=1707345834"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            18.00 - 48.00
+            <a href="https://feelgrounded.com/products/self-watering-crystal">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">This sleek, glass crystal takes the worry of under-watering off your hands. With a cork bottom, it intelligently trickles water into the soil over the course of 3-4 days. Say hello, new growth!</span></p>
+</td>
+</tr>
+</tbody>
+</table></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Gifts</s:tag>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601579884785</id>
+      <title>1</title>
+      <s:price currency="USD">18.00</s:price>
+      <s:sku>WATERINGCRYSTAL</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7601579884785</id>
+      <title>Set of 3</title>
+      <s:price currency="USD">48.00</s:price>
+      <s:sku>3wateringcry</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/6914801565879</id>
+    <published>2023-11-22T14:17:58-05:00</published>
+    <updated>2023-11-22T14:17:58-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/rubber-tree"/>
+    <title>Rubber Tree</title>
+    <s:type>Houseplants</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_20.png?v=1707345624"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Houseplants<br>
+        <strong>Price: </strong>
+            28.00 - 58.00
+            <a href="https://feelgrounded.com/products/rubber-tree">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p data-mce-fragment="1"><span style="font-weight: 400;"></span>Care Info</p>
+<p data-mce-fragment="1"><br></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><b>SUN</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The Rubber Tree is adaptable and will do best in medium to bright, indirect light. We recommend placing it in a room with east or south-facing windows that receive filtered light via curtains or blinds. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WATER</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Water generously when the top 50-75% of soil has dried, allowing all excess water to drain out. Use of non-tap water is recommended. Reduce frequency during Fall and Winter. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>AIR</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mimic their native tropical environment with temperatures between 65º-85º and a high humidity. A few easy tricks to boost humidity are:</span></p>
+<br>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Misting the leaves 3-4x per week with non-tap water</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Adding a humidifier nearby</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Creating a pebble tray that lives underneath the pot</span></li>
+</ul>
+<br>
+<p><span style="font-weight: 400;">Be sure to keep your Rubber Tree away from drafty rooms, windows, and vents. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>PET FRIENDLY</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The Rubber Tree is not pet-friendly. The sap inside of the plant is toxic if ingested.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>AESTHETIC</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Native to jungles in southern Asia, the Rubber Tree is a gorgeous tree that grows long, oval, and pointed leaves that can change shape over the plant’s lifetime. New leaves grow in burgundy, eventually changing into a deep green. Indoors, this plant can live over 10 years and grow over 6 feet in its lifetime. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HEALTH BENEFITS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Active exposure to and care for plants has many proven wellbeing benefits, such as: </span></p>
+<br>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lower stress levels</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Improved mood</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Superior mental clarity and focus</span></li>
+</ul>
+<br>
+<p><span style="font-weight: 400;">Rubber Trees are excellent at absorbing indoor toxins through their large leaves. </span><span style="font-weight: 400;">In return, they produce oxygen which allows us to breathe and sleep better. Dust the leaves regularly for optimal photosynthesis and shine. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>SPIRITUAL INTERPRETATIONS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Rubber Trees are Ficus plants, known to represent peace and abundance in some cultures. Place your Rubber Tree intentionally in your home to serve as a reminder and attract full wellbeing in your life. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>DIFFICULTY LEVEL</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Easy </span><b>• </b><b>Intermediate </b><b>• </b><span style="font-weight: 400;">Experienced </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Arriving to you in careful packaging:</span></p>
+<br>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Live Rubber Tree</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Temporary 4-inch nursery pot</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Care card with tips for success </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><meta charset="utf-8"> <a href="https://calendly.com/groundedplants/office-hours?month=2022-08"><span>Grounded Office Hours</span></a><span>: Complimentary 1-on-1 support from our Plant Specialist</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>OUR RECS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">We recommend ceramic </span><a href="https://grounded-plants.com/collections/accessories"><span style="font-weight: 400;">planter</span></a><span style="font-weight: 400;"> with a drainage hole to provide ideal moisture balance and airflow for the Rubber Tree. When repotting, use a planter of the same size or no more than 2 inches larger. </span></p>
+<br>
+<p><span style="font-weight: 400;">Ideal soil is a well-draining mix with aerating and moisture-retaining amendments such as bark, sand, and/or perlite.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><span style="font-weight: 400;">Nature is unique - each plant may vary slightly from the plant shown here. Ceramic planters are </span><a href="https://feelgrounded.com/collections/accessories"><span style="font-weight: 400;">sold separately</span></a><span style="font-weight: 400;">.</span></p>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6914801565879</id>
+      <title>Nursery Planter</title>
+      <s:price currency="USD">28.00</s:price>
+      <s:sku>6inRUBBERPLNT</s:sku>
+      <s:grams>576</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6914801565879</id>
+      <title>Matte White Planter</title>
+      <s:price currency="USD">58.00</s:price>
+      <s:sku>6inRUBBERPLNT-2</s:sku>
+      <s:grams>576</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6914801565879</id>
+      <title>Matte Black Planter</title>
+      <s:price currency="USD">58.00</s:price>
+      <s:sku>6inRUBBERPLNT-3</s:sku>
+      <s:grams>576</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/6091960778935</id>
+    <published>2023-11-06T17:06:14-05:00</published>
+    <updated>2023-11-06T17:06:14-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/ponytail-palm"/>
+    <title>Ponytail Palm</title>
+    <s:type>Houseplants</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/3_e3784f49-d9cf-43d4-9922-7c267af86b6c.png?v=1720622056"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Houseplants<br>
+        <strong>Price: </strong>
+            35.00 - 62.00
+            <a href="https://feelgrounded.com/products/ponytail-palm">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p data-mce-fragment="1">Care Info<br></p>
+<table>
+<tbody>
+<tr>
+<td>
+<h6><b>SUN</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">The Ponytail Palm requires bright and indirect light. Place it in your brightest room, near an east, west, or south-facing window and out of direct sun rays. </span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>WATER</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">The bulging trunk of this palm stores water, making it drought-tolerant. Allow the soil to fully dry in between waterings. On occasion, you can water them deeply, allowing all excess water to drain out. Be sure to reduce frequency during the fall and winter. </span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>AIR</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Their native environment is warm and dry, so average indoor air tends to work well. Keep them in temperatures between 60º-85º and away from sources of humidity. </span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>PET FRIENDLY</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Ponytail Palms are safe for cats and dogs.</span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>AESTHETIC</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Native to the dry regions of Mexico, this succulent gets its name from the long, curly leaves that hang from its swollen brown trunk. The trunk bulges when it stores water and shrivels when its resources are depleted. While it can slowly grow up to 6 feet indoors, its unique silhouette and petite size add worthy flair to any room.</span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>HEALTH BENEFITS</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Active exposure to and care for plants has many proven wellbeing benefits, such as: </span></h6>
+<ul>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Lower stress levels</span></h6>
+</li>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Improved mood</span></h6>
+</li>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Superior mental clarity and focus</span></h6>
+</li>
+</ul>
+<h6><span style="font-weight: 400;">Ponytail Palms are fantastic air purifiers, absorbing common indoor toxins like benzene, and formaldehyde. Plus, they create oxygen to help us breathe and sleep better. </span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>SPIRITUAL INTERPRETATIONS</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Ponytail Palms represent free and strong-willed spirits. Their perseverance and resourcefulness allow them to thrive as one of the most unique plants that exist. Their hardiness and resilience under negligence make them the perfect gift for a traveler.</span></h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>DIFFICULTY LEVEL</b></h6>
+</td>
+<td>
+<h6>
+<b>Easy</b> <span style="font-weight: 400;">• </span><span style="font-weight: 400;">Intermediate </span><span style="font-weight: 400;">• </span><span style="font-weight: 400;">Experienced </span>
+</h6>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>WHAT’S INCLUDED</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">Arriving to you in careful packaging:</span></h6>
+<ul>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Live Ponytail Palm  </span></h6>
+</li>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Temporary 4-inch or 6-inch nursery pot</span></h6>
+</li>
+<li style="font-weight: 400;">
+<h6><span style="font-weight: 400;">Care card with tips for success</span></h6>
+</li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><meta charset="utf-8">
+<a href="https://calendly.com/groundedplants/office-hours?month=2022-08"><span>Grounded Office Hours</span></a><span>: Complimentary 1-on-1 support from our Plant Specialist</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<h6><b>OUR RECS</b></h6>
+</td>
+<td>
+<h6><span style="font-weight: 400;">We recommend a clay or ceramic planter with a drainage hole to provide optimal drainage and airflow for the Ponytail Palm. </span></h6>
+<h6><span style="font-weight: 400;">Ideal soil is a cacti/succulent mix with drainage-enhancing amendments such as sand, bark, and/or perlite. </span></h6>
+</td>
+</tr>
+</tbody>
+</table>
+<ul data-mce-fragment="1"></ul>
+<p data-mce-fragment="1"><br data-mce-fragment="1"></p>
+<p><strong>Nature is unique - each plant may vary slightly from the plant shown here. Ceramic planters are <a href="https://feelgrounded.com/collections/accessories">sold separately</a>.</strong></p>
+<p data-mce-fragment="1"><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Pet-Friendly</s:tag>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6091960778935</id>
+      <title>6-in / Nursery Planter</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku>6INPONYTAILDC-2</s:sku>
+      <s:grams>966</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6091960778935</id>
+      <title>6-in / White Ceramic Planter</title>
+      <s:price currency="USD">62.00</s:price>
+      <s:sku>PONYTAILWHITEPLANTER</s:sku>
+      <s:grams>966</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://feelgrounded.com/products/6091960778935</id>
+      <title>6-in / Black Ceramic Planter</title>
+      <s:price currency="USD">62.00</s:price>
+      <s:sku>PONYTAILBLKPLANTER</s:sku>
+      <s:grams>966</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7838679007473</id>
+    <published>2023-11-06T15:12:02-05:00</published>
+    <updated>2023-11-06T15:12:02-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/cactus-window-set"/>
+    <title>Cactus Window Set</title>
+    <s:type>Houseplants</s:type>
+    <s:vendor>Grounded Plants</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_1_75ab8494-0fb1-471f-ac2d-7c3994b4b76c.png?v=1707335577"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded Plants<br>
+        <strong>Type: </strong>Houseplants<br>
+        <strong>Price: </strong>
+            32.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><br></p>
+<h2>
+<meta charset="utf-8"> Care Info</h2>
+<table>
+<tbody>
+<tr>
+<td>
+<p><b>SUN</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The </span><span style="font-weight: 400;">Golden Barrel Cactus</span><span style="font-weight: 400;"> requires plenty of bright light. It should have access to many hours of full sun most days. Access to a South or West-facing window is best.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WATER</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">This cactus stores water inside its barrel, making it drought-tolerant and hardy to some periods of neglect. Water deeply after the soil has fully dried. This may be as infrequent as every 1-3 months. Reduce frequency during fall and winter.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>AIR</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Their native environment is warm and dry, so average indoor air tends to work well. Keep them in temperatures between 55º-80º and away from sources of humidity. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>PET FRIENDLY</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Golden Barrel Cactus needles are not safe for pets or children.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>AESTHETIC</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Native to the desert lands of Mexico, the Golden Barrel cactus survives on very little water and plenty of full light. These cacti grow round, resembling a sphere with clusters of spiky golden needles growing along their ribs. In nature, these needles protect them from predators along with a toxic sap that can cause skin irritation in humans. Indoors, they can grow up to 2 feet tall and 10 inches wide.  </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HEALTH BENEFITS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Active exposure to and care for plants has many proven wellbeing benefits, such as: </span></p>
+<br>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Lower stress levels</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Improved mood</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Superior mental clarity and focus</span></li>
+</ul>
+<br>
+<p><span style="font-weight: 400;">Golden Barrel Cactus</span><span style="font-weight: 400;"> absorb carbon dioxie and release oxygen in return. This helps us breathe and sleep better. </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>SPIRITUAL INTERPRETATIONS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Cacti represent strength, protection, and endurance. The conditions they’re able to thrive and grow under are impressive for any living organism. Keep them nearby as a reminder of your own perseverance and will.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>DIFFICULTY LEVEL</b></p>
+</td>
+<td>
+<p><b>Easy</b> <span style="font-weight: 400;">• </span><span style="font-weight: 400;">Intermediate </span><span style="font-weight: 400;">• </span><span style="font-weight: 400;">Experienced </span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Arriving to you in careful packaging:</span></p>
+<br>
+<ul>
+<li style="font-weight: 400;">
+<span style="font-weight: 400;">Live </span><span style="font-weight: 400;">Golden Barrel Cactus </span><span style="font-weight: 400;"> </span>
+</li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Temporary 6-inch nursery pot</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Care card with tips for success</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;"><meta charset="utf-8"> <a href="https://calendly.com/groundedplants/office-hours?month=2022-08"><span>Grounded Office Hours</span></a><span>: Complimentary 1-on-1 support from our Plant Specialist</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>OUR RECS</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">We recommend clay or terra cotta planters with a drainage hole to provide ideal moisture control and airflow for the Golden Barrel. These can skip a few years in between repotting, and should be in a planter of the same size or no more than 2 inches larger.  </span></p>
+<br>
+<p><span style="font-weight: 400;">Ideal soil is a cacti/succulent mix with drainage-enhancing amendments such as sand or perlite.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p data-mce-fragment="1"><br></p>
+<p><b>Nature is unique - each plant may vary slightly from the plant shown here. Ceramic planters are </b><a href="https://feelgrounded.com/collections/accessories"><b>sold separately</b></a><b>.</b></p>
+<p data-mce-fragment="1"><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7838679007473</id>
+      <title>2-in</title>
+      <s:price currency="USD">32.00</s:price>
+      <s:sku>CactusWindowSet</s:sku>
+      <s:grams>454</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7954010145009</id>
+    <published>2023-06-26T15:59:44-04:00</published>
+    <updated>2023-06-26T15:59:44-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/sympathy-card"/>
+    <title>Sympathy Greeting Card</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/29.png?v=1707346268"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            5.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Complimenting plants gifted to loved ones dealing with loss and grief.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7954010145009</id>
+      <title>Default Title</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku>SympathyCard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7954010243313</id>
+    <published>2023-06-26T15:58:20-04:00</published>
+    <updated>2023-06-26T15:58:20-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/plant-parent-card"/>
+    <title>Sending Love Greeting Card</title>
+    <s:type></s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/27_5a90b4d0-57a1-423f-8f17-51400e1272aa.png?v=1707346301"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            5.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Let the plant enthusiast in your life know that you are thinking of them. Don't forget to add your hand-written message as a gift note!</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7954010243313</id>
+      <title>Default Title</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku>SendingLoveCard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7954010177777</id>
+    <published>2023-06-26T15:54:24-04:00</published>
+    <updated>2023-06-26T15:54:24-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/plant-papa-card"/>
+    <title>Plant Papa Greeting Card</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_15.png?v=1707344877"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            5.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Complimenting any plant gift order to any plant papa in your life.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7954010177777</id>
+      <title>Default Title</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku>PlantPapaCard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7954013520113</id>
+    <published>2023-06-26T15:39:57-04:00</published>
+    <updated>2023-06-26T15:39:57-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/encouragement-card"/>
+    <title>Grow Through Greeting Card</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/IMG_4386-1906.jpg?v=1687808322"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            5.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Complimenting any plant gift order to your loved ones.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7954013520113</id>
+      <title>Default Title</title>
+      <s:price currency="USD">5.00</s:price>
+      <s:sku>growthroughcard</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7923082068209</id>
+    <published>2023-04-06T18:45:27-04:00</published>
+    <updated>2023-04-06T18:45:27-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/gnat-traps"/>
+    <title>Gnat Traps</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_1_64102583-8763-4bcc-a367-940800d89ffd.png?v=1707340943"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            12.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Fungus Gnats happen to the best of us! Make life easier and get your plant back to health by setting up quick sticky traps that rid you of the nuisance.</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7923082068209</id>
+      <title>Default Title</title>
+      <s:price currency="USD">12.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://feelgrounded.com/products/7749917245681</id>
+    <published>2022-07-19T19:49:56-04:00</published>
+    <updated>2022-07-19T19:49:56-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://feelgrounded.com/products/mosquito-bits"/>
+    <title>Mosquito Bits</title>
+    <s:type>Accessories</s:type>
+    <s:vendor>Grounded</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0275/2102/4023/files/ProductShots_9.png?v=1707343490"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Grounded<br>
+        <strong>Type: </strong>Accessories<br>
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table>
+<tbody>
+<tr>
+<td>
+<p><b>DESCRIPTION</b></p>
+</td>
+<td>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Female fungus gnats lay hundreds of eggs that become flying adults within just two weeks. Get ahead of the infestation using the bacteria found in Mosquito Bits, naturally fatal to the larvae of fungus gnats and mosquitoes.</span></p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Bits are safe for use on indoor plants and in the garden. These natural bacteria do not cause harm to beneficial insects such as bees and ladybugs. </span>This product is also safe for use around pets, people, and animals.</p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1">Active Ingredient: Bacillus thuringiensis subspecies israelensis (BTI), a naturally occurring bacterium.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>BENEFITS</b></p>
+</td>
+<td>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Mosquito Bits eliminate fungus gnat eggs and larvae inside soil, effectively targeting fungus gnat infestations caused by overwatering, poor drainage, root rot, and spread from other plants. </span></p>
+<p data-mce-fragment="1"> </p>
+<p data-mce-fragment="1"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">Learn more about the causes and signs of fungus gnats<span> </span></span><a href="https://feelgrounded.com/blogs/resources/how-to-treat-plants-with-fungus-gnats?_pos=1&amp;_sid=024d6d352&amp;_ss=r" data-mce-fragment="1" data-mce-href="https://feelgrounded.com/blogs/resources/how-to-treat-plants-with-fungus-gnats?_pos=1&amp;_sid=024d6d352&amp;_ss=r"><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">here</span></a><span style="font-weight: 400;" data-mce-fragment="1" data-mce-style="font-weight: 400;">.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>WHAT’S INCLUDED</b></p>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">One 8 oz Mosquito Bits package</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><b>HOW TO USE</b></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Easily treat your plants with mosquito bits using one of the below methods:</span></p>
+<p> <br></p>
+<p><b>DIRECT SOIL METHOD:</b></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Shake mosquito bits directly onto the soil’s surface</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Gently work some of the bits into the top inches of soil</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Follow with water and resume its usual care schedule</span></li>
+</ol>
+<p> <br></p>
+<p><span style="font-weight: 400;">*Repeat for the next 2-3 waterings, or weekly, on your affected plants. Continue use if needed.</span></p>
+<p> <br></p>
+<p> <br></p>
+<p><b>BITS “TEA” WATER</b></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Create a tea mixture using two tablespoons of bits per half gallon of water (double these measurements for large treatments) </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Let the bits soak in the water for 30-60 minutes</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Pour directly onto the soil of your affected plants  </span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Pour the bits with the water, scoop them out before pouring, or create a tea bag by repurposing a cut stocking or old t-shirt</span></li>
+</ul>
+<p> <br></p>
+<p><span style="font-weight: 400;">*Repeat for the next 2-3 waterings, or weekly, on your affected plants. Continue use if needed.</span></p>
+<p><span style="font-weight: 400;">*Use tea mixture right away.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br data-mce-fragment="1"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://feelgrounded.com/products/7749917245681</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku>MOSBITS</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

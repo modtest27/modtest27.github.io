@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_flavours.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/want-to-know-the-most-popular-coffee-flavour-we-know-5</id>
+    <published>2022-08-16T15:38:31+05:30</published>
+    <updated>2022-08-18T17:31:56+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/want-to-know-the-most-popular-coffee-flavour-we-know-5"/>
+    <title>Want To Know The Most Popular Coffee Flavour? We Know 5</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Do you know which coffee flavour is right for you? There are many different options like French Vanilla, Original, Dark Roast, Cinnamon, Hazelnut. Let’s talk about each of these popular flavours!</p>]]>
+    </content>
+  </entry>
+</feed>

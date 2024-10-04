@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/hot-brew-upsell.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2023-08-17T23:48:27+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/8564152828203</id>
+    <published>2023-08-17T23:48:27+05:30</published>
+    <updated>2023-08-17T23:48:27+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/enamel-mug-pack-of-10-instant"/>
+    <title>Enamel Mug + Pack of 10 Instant</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Bluemugs_PO10.png?v=1692277828"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            599.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Elevate your coffee experience with our Enamel Mug and get a FREE Assorted Pack of 10 Instant Coffee Sachet Box. Discover 4 delicious coffee flavors in durable and versatile mugs that are ideal for outdoor adventures or daily sipping. Indulge in our Premium Instant Coffee that effortlessly blends in hot, cold, or milk for a flavorful escape.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8564152828203</id>
+      <title>Classic Blue / 1 Mug</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>EMB+SOICA10</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/8158107074859</id>
+    <published>2023-03-02T11:57:11+05:30</published>
+    <updated>2023-03-02T11:57:11+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-assorted-pack-of-48"/>
+    <title>Instant Coffee Assorted Pack of 48</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/po48main.jpg?v=1681141645"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            480.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Get your favourite Instant Coffee in sachets now and make the smoothest coffee for yourself anytime, anywhere. Enjoy 4 strong &amp; unique flavours packed in one box. All you have to do is tear the sachet, add it to the cup and pour hot milk or water - it's that simple!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8158107074859</id>
+      <title>Default Title</title>
+      <s:price currency="INR">480.00</s:price>
+      <s:sku>SOICA-48Sachets</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/7028467925039</id>
+    <published>2022-05-23T16:47:23+05:30</published>
+    <updated>2022-05-23T16:47:23+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-best-of-hot-brew-free-mug"/>
+    <title>The Best of Hot Brew</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/HB_Bluemug.jpg?v=1653311258"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            2199.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span style="font-weight: 400;">The best combination for Hot Brew lovers. Here we offer our best Hot Brew flavours- Original, Dark Roast, French Vanilla, Hazelnut and an Assorted Box along with a handcrafted blue Ceramic Mug. Our Hot Brews come in the form of brew bags and are made with 100% arabica beans. Enjoy a delicious treat in your new favourite coffee mug with this combo. </span></p>
+<span></span></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7028467925039</id>
+      <title>Default Title</title>
+      <s:price currency="INR">2199.00</s:price>
+      <s:sku>1HBA+1HBO+1HBV+1HBH+1CM-Blue</s:sku>
+      <s:grams>2000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6773678735407</id>
+    <published>2021-10-11T14:15:42+05:30</published>
+    <updated>2021-10-11T14:15:42+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ground-coffee-original"/>
+    <title>Ground Coffee / Original</title>
+    <s:type>Ground Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/coffee-beans_654b4e4c-aa9a-4bbc-8fc6-47880317068c.png?v=1633939006"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Ground Coffee<br>
+        <strong>Price: </strong>
+            500.00 - 1500.00
+            <a href="https://sleepyowl.co/products/ground-coffee-original">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-beans-content">
+<div class="hot-beans-content">
+<h3>Ground Coffee &amp; Beans</h3>
+</div>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<div class="hot-beans-content">
+<p><span style="font-weight: 400;">The 100% Arabica ground coffee beans are sourced directly from selection plantation and brought to you in a variety of grinds. This original ground coffee has natural chocolatey notes and is carefully sealed to maintain freshness. The ground coffee doesn’t dissolve in water and needs equipment to brew, depending on the grind</span></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>groundcoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-W</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-W</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-W</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-C</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-C</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-C</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-M</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-M</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-M</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-F</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-F</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 3 Bags</title>
+      <s:price currency="INR">1350.00</s:price>
+      <s:sku>3GC-OG-F</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4694769729583</id>
+    <published>2020-07-27T18:42:56+05:30</published>
+    <updated>2020-07-27T18:42:56+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ceramic-mug"/>
+    <title>Green Ceramic Mug</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Greenceramic_65846659-c10e-4e41-9e9f-1d5658701c5a.jpg?v=1646480565"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            599.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Our Ceramic Mug is specially crafted by hand with ceramic by skilled artisans who use traditional crafting techniques. Each mug brings with it a unique character from the designing process. It is microwave friendly and perfect for your morning coffee. It’s available in two attractive colours for you to choose from. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Free Gift</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Forest Green</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Green</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Classic Blue</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Blue</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+  </entry>
+</feed>

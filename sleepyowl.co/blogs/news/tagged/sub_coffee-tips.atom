@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_coffee-tips.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/things-people-often-overlook-while-buying-coffee</id>
+    <published>2022-09-01T11:02:52+05:30</published>
+    <updated>2022-09-06T17:14:51+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/things-people-often-overlook-while-buying-coffee"/>
+    <title>Things People Often Overlook While Buying Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Are you the kind of coffee lover who looks into every little detail before buying coffee online or at a store nearby, or are you the kind who simply buys the first coffee brand you come across?</p>]]>
+    </content>
+  </entry>
+</feed>

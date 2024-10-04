@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_gifts.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/the-perfect-coffee-gifts-for-rakhi</id>
+    <published>2022-08-09T18:18:19+05:30</published>
+    <updated>2022-08-12T12:46:35+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/the-perfect-coffee-gifts-for-rakhi"/>
+    <title>The Perfect Coffee Gifts For Rakhi</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Siblings who caffeinate together, stay together. </p>]]>
+    </content>
+  </entry>
+</feed>

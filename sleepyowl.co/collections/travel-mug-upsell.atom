@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/travel-mug-upsell.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-07-29T09:42:12+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817461295</id>
+    <published>2024-07-29T09:42:12+05:30</published>
+    <updated>2024-07-29T09:42:12+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-assorted"/>
+    <title>Cold Brew Packs / Assorted</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Assorted_1.jpg?v=1662561801"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1725.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-assorted">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;">Assorted Cold Brew Coffee Pack is filled with the authentic, delicious taste of real good coffee. It includes a collection of our most loved flavours in one box - Original, Hazelnut, French Vanilla, Dark Roast, and Cinnamon, and is the best way to try the variety of Cold Brews we have to offer. Our Cold Brew coffee is made with 100% Arabica beans that have natural chocolatey notes.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBA</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBA</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1725.00</s:price>
+      <s:sku>3CBA</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/7008924631087</id>
+    <published>2024-06-12T10:07:21+05:30</published>
+    <updated>2024-06-12T10:07:21+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-packs-emirates-blend"/>
+    <title>Cold Brew Packs / Emirates Blend</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Emiratesblend.jpg?v=1662561203"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1500.00
+            <a href="https://sleepyowl.co/products/cold-brew-packs-emirates-blend">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">Inspired by the Middle East, this exquisite emirates blend is sweet, spicy, and citrusy all at the same time, with an unusual cardamom twist. The chocolatey notes of our 100% Arabica beans enhance these flavours to give you a bold Cold Brew. The blend doesn’t have any preservatives or additives, every flavour you taste is natural, straight from the source. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBEB</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBEB</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3CBEB</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817625135</id>
+    <published>2024-06-08T14:30:22+05:30</published>
+    <updated>2024-06-08T14:30:22+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-french-vanilla"/>
+    <title>Cold Brew Packs / French Vanilla</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Vanilla_6.jpg?v=1665033586"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-french-vanilla">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+</div>
+<p><span style="font-weight: 400;">A divine combination of french vanilla cold brew coffee and chocolate makes this flavour very popular. Enjoy it black or with milk, the choice is yours. The chocolatey notes of the 100% Arabica beans seamlessly blend with the sweetness of vanilla to give you a rich, caramelised and custard like taste. The sweetness in the blend is all natural, without any additives. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBV</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBV</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBV</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6773678735407</id>
+    <published>2021-10-11T14:15:42+05:30</published>
+    <updated>2021-10-11T14:15:42+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ground-coffee-original"/>
+    <title>Ground Coffee / Original</title>
+    <s:type>Ground Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/coffee-beans_654b4e4c-aa9a-4bbc-8fc6-47880317068c.png?v=1633939006"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Ground Coffee<br>
+        <strong>Price: </strong>
+            500.00 - 1500.00
+            <a href="https://sleepyowl.co/products/ground-coffee-original">(12 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-beans-content">
+<div class="hot-beans-content">
+<h3>Ground Coffee &amp; Beans</h3>
+</div>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<div class="hot-beans-content">
+<p><span style="font-weight: 400;">The 100% Arabica ground coffee beans are sourced directly from selection plantation and brought to you in a variety of grinds. This original ground coffee has natural chocolatey notes and is carefully sealed to maintain freshness. The ground coffee doesn’t dissolve in water and needs equipment to brew, depending on the grind</span></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>groundcoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-W</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-W</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Whole / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-W</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-C</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-C</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Coarse / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-C</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-M</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-M</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Medium / 3 Bags</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3GC-OG-M</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 1 Bag</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>1GC-OG-F</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 2 Bags</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>2GC-OG-F</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773678735407</id>
+      <title>Fine / 3 Bags</title>
+      <s:price currency="INR">1350.00</s:price>
+      <s:sku>3GC-OG-F</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817330223</id>
+    <published>2021-10-11T14:15:38+05:30</published>
+    <updated>2021-10-11T14:15:38+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-french-vanilla"/>
+    <title>Hot Brew Bags / French Vanilla</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Fr.Vanilla.jpg?v=1662562487"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-french-vanilla">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"Our all-time favourite French Vanilla is the most fitting aromatic touch to our signature Hot Brew. The rich vanilla flavour offers its own sweet and aromatic taste to our bold Grade-A coffee beans. All you have to do is add hot water and brew it for a minimum of 5 minutes."}'>Our all-time favourite French Vanilla is the most fitting aromatic touch to our signature Hot Brew. The rich vanilla flavour offers its own sweet and aromatic taste to our bold Grade-A coffee beans. All you have to do is add hot water and brew it for a minimum of 5 minutes.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBV</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBV</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBV</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817264687</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast"/>
+    <title>Hot Brew Bags / Dark Roast</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/DarkRoast_1.jpg?v=1662562512"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. "}'>If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast Hot Brew is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBDR</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBDR</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBDR</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+</feed>

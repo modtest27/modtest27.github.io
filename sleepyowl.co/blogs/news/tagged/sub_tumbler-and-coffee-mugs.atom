@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_tumbler-and-coffee-mugs.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/what-s-the-difference-between-our-coffee-tumbler-and-coffee-mugs</id>
+    <published>2022-11-01T11:47:08+05:30</published>
+    <updated>2022-11-01T11:47:08+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/what-s-the-difference-between-our-coffee-tumbler-and-coffee-mugs"/>
+    <title>What’s The Difference Between Our Coffee Tumbler And Coffee Mugs</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>“Coffee, when had in the right cup, can truly be a game changer.” </p>]]>
+    </content>
+  </entry>
+</feed>

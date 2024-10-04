@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/cold-brew-coffee.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-07-29T09:42:12+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817461295</id>
+    <published>2024-07-29T09:42:12+05:30</published>
+    <updated>2024-07-29T09:42:12+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-assorted"/>
+    <title>Cold Brew Packs / Assorted</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Assorted_1.jpg?v=1662561801"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1725.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-assorted">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;">Assorted Cold Brew Coffee Pack is filled with the authentic, delicious taste of real good coffee. It includes a collection of our most loved flavours in one box - Original, Hazelnut, French Vanilla, Dark Roast, and Cinnamon, and is the best way to try the variety of Cold Brews we have to offer. Our Cold Brew coffee is made with 100% Arabica beans that have natural chocolatey notes.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBA</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBA</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817461295</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1725.00</s:price>
+      <s:sku>3CBA</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817559599</id>
+    <published>2024-07-01T11:57:58+05:30</published>
+    <updated>2024-07-01T11:57:58+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-dark-roast"/>
+    <title>Cold Brew Packs / Dark Roast</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/1_12.jpg?v=1665034692"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-dark-roast">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">This flavour is especially made for those who like their coffee strong and rich. As the name suggests, this Dark Roast Cold Brew flavour brings you a deep roast of our 100% Arabica coffee beans, which makes it extremely chocolatey. The longer you leave this one to brew, the more intense it will taste in every sip you take. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBDR</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBDR</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817559599</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBDR</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817756207</id>
+    <published>2024-07-01T11:57:44+05:30</published>
+    <updated>2024-07-01T11:57:44+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-original"/>
+    <title>Cold Brew Packs / Original Blend</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Original_5.jpg?v=1662443030"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-original">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">It’s perfect for those who like their coffee to be classic, without any added flavours to subdue the authentic taste of the coffee beans. The Original Cold Brew features our signature 100% Arabica coffee beans that have their own chocolatey notes. Enjoy some classic Cold Brew coffee black or with milk, it tastes great either way. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817756207</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBO</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817756207</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBO</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817756207</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBO</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817723439</id>
+    <published>2024-06-12T10:16:36+05:30</published>
+    <updated>2024-06-12T10:16:36+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-new-orleans"/>
+    <title>Cold Brew Packs / New Orleans</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/1_8.jpg?v=1664793899"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-new-orleans">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> </p>
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">Taking inspiration from the vivacious city of New Orleans, this Cold Brew is as classic as it is bold. The natural chocolatey 100% Arabica coffee beans are blended with a dash of heavenly chicory beans to give you a blend that will liven you up just like the streets of New Orleans. Quick tip: This Cold Brew tastes absolutely divine with milk. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817723439</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBNO</s:sku>
+      <s:grams>710</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817723439</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBNO</s:sku>
+      <s:grams>718</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817723439</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBNO</s:sku>
+      <s:grams>718</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/7008924631087</id>
+    <published>2024-06-12T10:07:21+05:30</published>
+    <updated>2024-06-12T10:07:21+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-packs-emirates-blend"/>
+    <title>Cold Brew Packs / Emirates Blend</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Emiratesblend.jpg?v=1662561203"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1500.00
+            <a href="https://sleepyowl.co/products/cold-brew-packs-emirates-blend">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><span class="text-pelorous">Brew Packs</span></p>
+<p><span style="font-weight: 400;">Inspired by the Middle East, this exquisite emirates blend is sweet, spicy, and citrusy all at the same time, with an unusual cardamom twist. The chocolatey notes of our 100% Arabica beans enhance these flavours to give you a bold Cold Brew. The blend doesn’t have any preservatives or additives, every flavour you taste is natural, straight from the source. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBEB</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBEB</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/7008924631087</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>3CBEB</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817625135</id>
+    <published>2024-06-08T14:30:22+05:30</published>
+    <updated>2024-06-08T14:30:22+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-french-vanilla"/>
+    <title>Cold Brew Packs / French Vanilla</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Vanilla_6.jpg?v=1665033586"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-french-vanilla">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+</div>
+<p><span style="font-weight: 400;">A divine combination of french vanilla cold brew coffee and chocolate makes this flavour very popular. Enjoy it black or with milk, the choice is yours. The chocolatey notes of the 100% Arabica beans seamlessly blend with the sweetness of vanilla to give you a rich, caramelised and custard like taste. The sweetness in the blend is all natural, without any additives. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBV</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBV</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817625135</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBV</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6559192645679</id>
+    <published>2024-01-25T15:59:29+05:30</published>
+    <updated>2024-01-25T15:59:29+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/pitcher"/>
+    <title>Pitcher</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/pitcher_desk.jpg?v=1619848585"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1900.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Our 1 litre Cold Brew Pitcher is designed to make and store Cold Brew. It’s made with 100% borosilicate glass and has custom level markers on it so you can brew as much coffee as you need. The Pitcher has perforations on the tight aluminium cap that help you pour Cold Brew directly without the brew bags falling out and also minimises the oxidation. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>_label_ save 30%</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6559192645679</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1900.00</s:price>
+      <s:sku>1Pitcher</s:sku>
+      <s:grams>727</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817657903</id>
+    <published>2021-10-11T14:15:41+05:30</published>
+    <updated>2021-10-11T14:15:41+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-hazelnut"/>
+    <title>Cold Brew Packs / Hazelnut</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/HAzelnut_4.jpg?v=1662443712"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1725.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-hazelnut">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;" data-mce-style="font-weight: 400;">When the chocolatey notes of our signature 100% Arabica beans seamlessly blend with nutty goodness of hazelnuts, it gives a flavour so delicious that you will not be able to get enough of it. This Hazelnut Cold Brew flavour has become a personal favourite for us. It surely makes the perfect glass of cold black coffee. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817657903</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBH</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817657903</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBH</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817657903</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1725.00</s:price>
+      <s:sku>3CBH</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817526831</id>
+    <published>2021-10-11T14:15:40+05:30</published>
+    <updated>2021-10-11T14:15:40+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-cinnamon"/>
+    <title>Cold Brew Packs / Cinnamon</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/1_13.jpg?v=1665034785"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1725.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-cinnamon">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;" data-mce-style="font-weight: 400;">The natural, sweet, chocolatey notes of our 100% Arabica beans are a great match for the spicy, warm undertones of cinnamon. This Cinnamon Cold Brew coffee can also be enjoyed in the winter. The lack of preservatives and additives makes it easy for you to fully indulge in the rich flavours of this tempting blend. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817526831</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBC</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817526831</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBC</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817526831</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1725.00</s:price>
+      <s:sku>3CBC</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817494063</id>
+    <published>2021-10-11T14:15:39+05:30</published>
+    <updated>2021-10-11T14:15:39+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-coffee-packs-caramel"/>
+    <title>Cold Brew Packs / Caramel</title>
+    <s:type>Cold Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Caramel_3827d730-9714-41a5-85dc-2778348a2b10.jpg?v=1662561160"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Cold Brew<br>
+        <strong>Price: </strong>
+            600.00 - 1800.00
+            <a href="https://sleepyowl.co/products/cold-brew-coffee-packs-caramel">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<div class="hot-brew-content">
+<h3><span class="text-pelorous">Brew Packs</span></h3>
+<h3>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;">Caramel cold brew coffee has a nice ring to it doesn’t it? Well, that’s not the only nice thing about this Cold Brew coffee. It’s a flavour that is rich, bold and very nutty - all things pointing to a cold brew that you have to try. The chocolatey notes of the 100% Arabica beans compliment the sweet and creamy notes of real caramel. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewpacksnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>5 Packs</title>
+      <s:price currency="INR">600.00</s:price>
+      <s:sku>1CBCA</s:sku>
+      <s:grams>425</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>10 Packs</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>2CBCA</s:sku>
+      <s:grams>830</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817494063</id>
+      <title>15 Packs</title>
+      <s:price currency="INR">1800.00</s:price>
+      <s:sku>3CBCA</s:sku>
+      <s:grams>1205</s:grams>
+    </s:variant>
+  </entry>
+</feed>

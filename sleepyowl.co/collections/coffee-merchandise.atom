@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/coffee-merchandise.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-08-07T13:07:03+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/8368185639211</id>
+    <published>2024-08-07T13:07:03+05:30</published>
+    <updated>2024-08-07T13:07:03+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/travel-mug-free-coffee-frother"/>
+    <title>Travel Mug + Frother + Free Coffee</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Frother_TM_PO48_c38af377-8c62-4cb2-8310-888db096bad8.jpg?v=1723016167"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            2799.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p>Here's a deal to steal! We've combined two of our best-selling products to bring you the perfect experience for making and enjoying delicious coffee at home or on the go. So get our Built-For-Life Travel Mug, Powerful Frother, and a bonus Pack of 48 Instant Coffee Sachets for FREE!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8368185639211</id>
+      <title>Combo</title>
+      <s:price currency="INR">2799.00</s:price>
+      <s:sku>SOCIA48TRVBFRTHRB</s:sku>
+      <s:grams>1103</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9368648057131</id>
+    <published>2024-08-07T12:46:11+05:30</published>
+    <updated>2024-08-07T12:46:11+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-sachets-travel-mug"/>
+    <title>Instant Coffee Sachets + Travel Mug</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Travel_mug_fop.jpg?v=1723014126"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            1499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Want to have the best quality coffee anywhere you go? We've got you! Get your favourite Instant Coffee in sachets and our Built For Life Travel Mug at Flat 30% Off. All you'll have to do after that is tear the sachet, add it to the Travel Mug and pour cold milk or water. It's that simple!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9368648057131</id>
+      <title>Black</title>
+      <s:price currency="INR">1499.00</s:price>
+      <s:sku>SOICA48TRVB1</s:sku>
+      <s:grams>671</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555751502123</id>
+    <published>2024-07-16T15:02:54+05:30</published>
+    <updated>2024-07-16T15:02:54+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-48-instant-sachets"/>
+    <title>The Ground Coffee Mug &amp; Instant Pack of 48 Sachets</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/PO48_GC-Combo.jpg?v=1721122262"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            980.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Craving simply great coffee on the go? Look no further! Grab our new Coffee Mug made from leftover coffee grounds and Instant Coffee Sachets Pack of 48 containing 4 flavours; Original, French Vanilla, Hazelnut, Filter Kaapi at an unbeatable price. Enjoy your favorite coffee anytime, anywhere. Just tear open a sachet, add it to the mug, and pour hot water or milk. It’s that easy!<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555751502123</id>
+      <title>Default Title</title>
+      <s:price currency="INR">980.00</s:price>
+      <s:sku>MUG-GC SOICA48</s:sku>
+      <s:grams>460</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555414581547</id>
+    <published>2024-07-15T16:40:17+05:30</published>
+    <updated>2024-07-15T16:40:17+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-hot-brew-assorted"/>
+    <title>The Ground Coffee Mug &amp; Hot Brew Assorted</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_mug_assorted_HB.jpg?v=1720179606"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            900.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Now enjoy delicious coffee in a mug made of coffee! Whether you're travelling or having a quiet moment at home, our Hot Brew and Coffee Mug Combo is here to elevate your coffee experience. This super cool combo includes the Ground Coffee Mug and Hot Brew Assorted containing 5 flavours: Original, Dark Roast, Hazelnut, Cinnamon, and French Vanilla.<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555414581547</id>
+      <title>Default Title</title>
+      <s:price currency="INR">900.00</s:price>
+      <s:sku>MUG-GC HBA10</s:sku>
+      <s:grams>460</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9555032965419</id>
+    <published>2024-07-05T17:14:23+05:30</published>
+    <updated>2024-07-05T17:14:23+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug-2"/>
+    <title>The Ground Coffee Mug Combo</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_2_mugs.jpg?v=1720180151"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1000.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8"><meta charset="utf-8"><span></span><span></span><span>Our new Coffee Mug gives life to what was once meant for landfills. Made from leftover coffee grounds, it's more than just a mug, it's a statement – a daily reminder that small choices can create big change. Sip sustainably, one delicious drink at a time.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9555032965419</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1000.00</s:price>
+      <s:sku>MUG-GC-P2</s:sku>
+      <s:grams>490</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9550902264107</id>
+    <published>2024-07-05T11:11:16+05:30</published>
+    <updated>2024-07-05T11:11:16+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/the-ground-coffee-mug"/>
+    <title>The Ground Coffee Mug</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Ground_coffee_mug_1.jpg?v=1720175349"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            500.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Our new Coffee Mug, a collaboration with Made of Earth (MAE), gives life to what was once meant for landfills. Made from leftover coffee grounds, it's more than just a mug, it's a statement – a daily reminder that small choices can create big change. Sip sustainably, one delicious drink at a time.<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9550902264107</id>
+      <title>Default Title</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>MUG-GC</s:sku>
+      <s:grams>240</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/9350167200043</id>
+    <published>2024-05-03T15:46:56+05:30</published>
+    <updated>2024-05-03T15:46:56+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/coffee-tumbler-free-coffee-1"/>
+    <title>Instant Coffee Sachets + Tumbler</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/30_OFF_on_combo.jpg?v=1719572063"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1176.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Want to have the best quality coffee anywhere you go? We've got you! Get your favourite Instant Coffee in sachets and our iconic Coffee Tumbler at Flat 30% Off. All you'll have to do after that is tear the sachet, add it to the Tumbler and pour cold milk or water. It's that simple!<br><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9350167200043</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1176.00</s:price>
+      <s:sku>SOICA48TMBLR1</s:sku>
+      <s:grams>460</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/8421957697835</id>
+    <published>2024-04-02T11:57:11+05:30</published>
+    <updated>2024-04-02T11:57:11+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/coffee-frother-white-free-mug"/>
+    <title>Coffee Frother - White + Free Coffee</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/White-frother_po48.jpg?v=1688111801"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            1299.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span>Shop our powerful Frother and enjoy a Bonus Pack of 48 Instant Coffee Sachets for FREE! Whether it's a steaming cup of Cappuccino or a smooth Latte, create barista-worthy thick and creamy froth at home with our chic Frother, while enjoying your coffee in four delicious flavors.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8421957697835</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1299.00</s:price>
+      <s:sku>SOICA48+FRTHR-W</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6559192645679</id>
+    <published>2024-01-25T15:59:29+05:30</published>
+    <updated>2024-01-25T15:59:29+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/pitcher"/>
+    <title>Pitcher</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/pitcher_desk.jpg?v=1619848585"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1900.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Our 1 litre Cold Brew Pitcher is designed to make and store Cold Brew. It’s made with 100% borosilicate glass and has custom level markers on it so you can brew as much coffee as you need. The Pitcher has perforations on the tight aluminium cap that help you pour Cold Brew directly without the brew bags falling out and also minimises the oxidation. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>_label_ save 30%</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6559192645679</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1900.00</s:price>
+      <s:sku>1Pitcher</s:sku>
+      <s:grams>727</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/8564152828203</id>
+    <published>2023-08-17T23:48:27+05:30</published>
+    <updated>2023-08-17T23:48:27+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/enamel-mug-pack-of-10-instant"/>
+    <title>Enamel Mug + Pack of 10 Instant</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Bluemugs_PO10.png?v=1692277828"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            599.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Elevate your coffee experience with our Enamel Mug and get a FREE Assorted Pack of 10 Instant Coffee Sachet Box. Discover 4 delicious coffee flavors in durable and versatile mugs that are ideal for outdoor adventures or daily sipping. Indulge in our Premium Instant Coffee that effortlessly blends in hot, cold, or milk for a flavorful escape.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8564152828203</id>
+      <title>Classic Blue / 1 Mug</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>EMB+SOICA10</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/8568710693163</id>
+    <published>2023-08-16T16:01:54+05:30</published>
+    <updated>2023-08-16T16:01:54+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/french-press-free-ground-coffee"/>
+    <title>French Press &amp; Ground Coffee</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Hazelnut_3f01166d-40ea-446a-b565-9a7c68159783.png?v=1713527780"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            1499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>A classic barista tool, uplifted by our minimalist design. This brewer makes a mean cup of coffee and looks equally great on a kitchen counter or a desk. This combo contains our French Press and a Free 100% Arabica Course Ground Coffee to go with it. Choose the flavour of your choice from 4 delicious options and enjoy this freshly roasted coffee! </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>groundcoffee</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8568710693163</id>
+      <title>Hazelnut</title>
+      <s:price currency="INR">1499.00</s:price>
+      <s:sku>FP-GCH.</s:sku>
+      <s:grams>790</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8568710693163</id>
+      <title>Original</title>
+      <s:price currency="INR">1499.00</s:price>
+      <s:sku>FP-GCO.</s:sku>
+      <s:grams>790</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8568710693163</id>
+      <title>Dark Roast</title>
+      <s:price currency="INR">1499.00</s:price>
+      <s:sku>FP-GCDR.</s:sku>
+      <s:grams>790</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8568710693163</id>
+      <title>Fr. Vanilla</title>
+      <s:price currency="INR">1499.00</s:price>
+      <s:sku>FP-GCV.</s:sku>
+      <s:grams>790</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4694769729583</id>
+    <published>2020-07-27T18:42:56+05:30</published>
+    <updated>2020-07-27T18:42:56+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ceramic-mug"/>
+    <title>Green Ceramic Mug</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Greenceramic_65846659-c10e-4e41-9e9f-1d5658701c5a.jpg?v=1646480565"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            599.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Our Ceramic Mug is specially crafted by hand with ceramic by skilled artisans who use traditional crafting techniques. Each mug brings with it a unique character from the designing process. It is microwave friendly and perfect for your morning coffee. It’s available in two attractive colours for you to choose from. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Free Gift</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Forest Green</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Green</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Classic Blue</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Blue</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+  </entry>
+</feed>

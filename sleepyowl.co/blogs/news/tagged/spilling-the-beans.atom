@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/spilling-the-beans.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/a-peek-behind-the-curtain</id>
+    <published>2022-02-28T18:34:53+05:30</published>
+    <updated>2022-02-28T19:18:10+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/a-peek-behind-the-curtain"/>
+    <title>A Peek Behind The Curtain</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <summary type="html">
+      <![CDATA[<p>Take a step behind the brew and discover how we make our creatives. From ideation to the final product, we do it all in house and in under 48 hours. Spoiler: Our secret is a well laid out process and, of course, our talented marketing team.</p><p><a class="read-more" href="https://sleepyowl.co/blogs/news/a-peek-behind-the-curtain">More</a></p>]]>
+    </summary>
+  </entry>
+</feed>

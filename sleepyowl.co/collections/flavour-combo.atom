@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/flavour-combo.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2021-10-11T14:15:43+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6773679325231</id>
+    <published>2021-10-11T14:15:43+05:30</published>
+    <updated>2021-10-11T14:15:43+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ground-coffee-french-vanilla"/>
+    <title>Ground Coffee / French Vanilla</title>
+    <s:type>Ground Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Vanilla_0f5caaec-b2d2-43a6-b780-a28fa1b47c3d.jpg?v=1633939255"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Ground Coffee<br>
+        <strong>Price: </strong>
+            525.00 - 1575.00
+            <a href="https://sleepyowl.co/products/ground-coffee-french-vanilla">(9 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-beans-content">
+<div class="hot-beans-content">
+<h3>Ground Coffee &amp; Beans</h3>
+</div>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<div class="hot-beans-content">
+<p><span style="font-weight: 400;">The sweet and aromatic flavour notes of vanilla meet our 100% Arabica beans in this ground coffee. The variety of grinds available in this french vanilla don’t dissolve in water and can be brewed using specific equipment, depending on the type of grind you choose. It’s sourced from the best plantations and perfectly sealed, helping it stay fresh for long.</span></p>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>groundcoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Coarse / 1 Bag</title>
+      <s:price currency="INR">525.00</s:price>
+      <s:sku>1GC-FV-C</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Coarse / 2 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>2GC-FV-C</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Coarse / 3 Bags</title>
+      <s:price currency="INR">1575.00</s:price>
+      <s:sku>3GC-FV-C</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Medium / 1 Bag</title>
+      <s:price currency="INR">525.00</s:price>
+      <s:sku>1GC-FV-M</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Medium / 2 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>2GC-FV-M</s:sku>
+      <s:grams>1</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Medium / 3 Bags</title>
+      <s:price currency="INR">1575.00</s:price>
+      <s:sku>3GC-FV-M</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Fine / 1 Bag</title>
+      <s:price currency="INR">525.00</s:price>
+      <s:sku>1GC-FV-F</s:sku>
+      <s:grams>325</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Fine / 2 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>2GC-FV-F</s:sku>
+      <s:grams>651</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773679325231</id>
+      <title>Fine / 3 Bags</title>
+      <s:price currency="INR">1575.00</s:price>
+      <s:sku>3GC-FV-F</s:sku>
+      <s:grams>982</s:grams>
+    </s:variant>
+  </entry>
+</feed>

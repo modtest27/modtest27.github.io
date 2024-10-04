@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_filter-coffee.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/how-filter-coffee-is-good-for-your-heart-health</id>
+    <published>2022-07-29T13:11:03+05:30</published>
+    <updated>2022-08-01T11:48:36+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/how-filter-coffee-is-good-for-your-heart-health"/>
+    <title>How Filter Coffee Is Good For Your Heart Health</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Sometimes called pour over or drip, filter coffee is a popular way to brew and enjoy coffee world over.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/impressive-benefits-of-drinking-filtered-coffee</id>
+    <published>2022-07-18T10:46:43+05:30</published>
+    <updated>2022-07-19T18:02:13+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/impressive-benefits-of-drinking-filtered-coffee"/>
+    <title>Impressive Benefits Of Drinking Filtered Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>We live in a world that loves filters! Whether they’re on Instagram making you look beautiful or funny</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/5-reasons-people-love-indian-filter-coffee</id>
+    <published>2022-06-29T15:35:19+05:30</published>
+    <updated>2022-06-30T17:39:04+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/5-reasons-people-love-indian-filter-coffee"/>
+    <title>5 Reasons People Love Indian Filter Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Have you ever asked someone what made them love their favourite product in the first place?</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/the-ultimate-guide-to-south-indian-filter-coffee</id>
+    <published>2022-06-22T11:32:44+05:30</published>
+    <updated>2022-07-19T17:26:36+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/the-ultimate-guide-to-south-indian-filter-coffee"/>
+    <title>The Ultimate Guide To South Indian Filter Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Imagine yourself enjoying a hearty meal at a South Indian restaurant and ending the meal with a delicious cup of rich, frothy South Indian coffee.</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/4-health-benefits-of-consuming-the-south-indian-filter-coffee</id>
+    <published>2022-06-11T11:10:27+05:30</published>
+    <updated>2022-06-17T17:32:52+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/4-health-benefits-of-consuming-the-south-indian-filter-coffee"/>
+    <title>4 Health Benefits Of Consuming The South Indian Filter Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>While many argue that the classic South Indian Filter Coffee isn’t quite as healthy as positioned, the truth is far from this assumption. </p>]]>
+    </content>
+  </entry>
+</feed>

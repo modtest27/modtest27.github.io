@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/instant-coffee.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-04-30T16:30:38+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/8939803410731</id>
+    <published>2024-04-30T16:30:38+05:30</published>
+    <updated>2024-04-30T16:30:38+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/coffee-frother-black-free-coffee"/>
+    <title>Coffee Frother - Black + Free Coffee</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Blacl-frother_po48.jpg?v=1704192549"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            1299.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span>Shop our powerful Frother and enjoy a Bonus Pack of 48 Instant Coffee Sachets for FREE! Whether it's a steaming cup of Cappuccino or a smooth Latte, create barista-worthy thick and creamy froth at home with our chic Frother, while enjoying your coffee in four delicious flavors.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8939803410731</id>
+      <title>Default Title</title>
+      <s:price currency="INR">1299.00</s:price>
+      <s:sku>SOICA48+FRTHR-B</s:sku>
+      <s:grams>590</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/8158107074859</id>
+    <published>2023-03-02T11:57:11+05:30</published>
+    <updated>2023-03-02T11:57:11+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-assorted-pack-of-48"/>
+    <title>Instant Coffee Assorted Pack of 48</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/po48main.jpg?v=1681141645"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            480.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Get your favourite Instant Coffee in sachets now and make the smoothest coffee for yourself anytime, anywhere. Enjoy 4 strong &amp; unique flavours packed in one box. All you have to do is tear the sachet, add it to the cup and pour hot milk or water - it's that simple!</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/8158107074859</id>
+      <title>Default Title</title>
+      <s:price currency="INR">480.00</s:price>
+      <s:sku>SOICA-48Sachets</s:sku>
+      <s:grams>250</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6903555850287</id>
+    <published>2022-03-11T12:56:28+05:30</published>
+    <updated>2022-03-11T12:56:28+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-filter"/>
+    <title>Instant Filter Coffee</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Filterkaapi100gjar.jpg?v=1710227543"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            375.00 - 1125.00
+            <a href="https://sleepyowl.co/products/instant-coffee-filter">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Authentic South Indian Kaapi, ready in seconds. Enjoy a traditional cup of nutty goodness from the comfort of your home. This filter instant coffee comes in an airtight container to ensure it stays fresh and dissolves in hot or cold water or milk seamlessly. Made with a blend of robusta and chicory, it’s undeniably Kaapi and unbelievably easy. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>1 Glass Jar</title>
+      <s:price currency="INR">375.00</s:price>
+      <s:sku>SOICCK</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>2 Glass Jars</title>
+      <s:price currency="INR">750.00</s:price>
+      <s:sku>2SOICCK</s:sku>
+      <s:grams>980</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>3 Glass Jars</title>
+      <s:price currency="INR">1125.00</s:price>
+      <s:sku>3SOICCK</s:sku>
+      <s:grams>1440</s:grams>
+    </s:variant>
+  </entry>
+</feed>

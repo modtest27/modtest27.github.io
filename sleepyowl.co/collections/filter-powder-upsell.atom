@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/filter-powder-upsell.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2021-10-11T14:15:37+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817264687</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast"/>
+    <title>Hot Brew Bags / Dark Roast</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/DarkRoast_1.jpg?v=1662562512"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. "}'>If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast Hot Brew is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBDR</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBDR</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBDR</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+</feed>

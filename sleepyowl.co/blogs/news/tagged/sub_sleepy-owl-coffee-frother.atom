@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_sleepy-owl-coffee-frother.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/5-reasons-why-you-need-a-coffee-frother</id>
+    <published>2022-07-07T11:26:59+05:30</published>
+    <updated>2022-07-07T11:26:59+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/5-reasons-why-you-need-a-coffee-frother"/>
+    <title>5 Reasons Why you need a coffee frother</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>The basic purpose of tools is to make our lives easier and the final product more admirable!</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/how-to-use-a-coffee-frother</id>
+    <published>2022-06-29T15:37:49+05:30</published>
+    <updated>2022-07-12T16:07:19+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/how-to-use-a-coffee-frother"/>
+    <title>How To Use A Coffee Frother - A Complete Guide</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Don’t you just love frothed milk in your coffee? The thick yet light texture creates a delicious balance to the taste of the coffee and enhances the overall experience of enjoying a cup of coffee.</p>
+]]>
+    </content>
+  </entry>
+</feed>

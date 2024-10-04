@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/hotbrew_recurpay.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2021-11-22T18:06:08+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6799906308143</id>
+    <published>2021-11-22T18:06:08+05:30</published>
+    <updated>2021-11-22T18:06:08+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-bags-pumpkin-spice"/>
+    <title>Hot Brew Bags / Pumpkin Spice</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Pumpkinspice.jpg?v=1662562151"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-bags-pumpkin-spice">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content" data-mce-fragment="1">
+<h3 data-mce-fragment="1"><span class="text-red" data-mce-fragment="1">Brew Bags</span></h3>
+<h3 data-mce-fragment="1">Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p data-mce-fragment="1"><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Enjoy a potpourri of spices in your Hot Brew? Our Pumpkin Spice is just the thing for your taste buds. Enjoy the richness of the pumpkin flavour with a blend of clove, nutmeg, cinnamon, and much more in our season's limited edition Hot Brew. Whip up a Pumpkin Spiced Latte because this one certainly tastes best with milk!&quot;}">Enjoy a potpourri of spices in your Hot Brew? Our Pumpkin Spice is just the thing for your taste buds. Enjoy the richness of the pumpkin flavour with a blend of clove, nutmeg, cinnamon, and much more in our season's limited edition Hot Brew. Whip up a Pumpkin Spiced Latte because this one certainly tastes best with milk!</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6799906308143</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBP</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6799906308143</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBP</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6799906308143</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBP</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6773685157935</id>
+    <published>2021-10-11T14:15:46+05:30</published>
+    <updated>2021-10-11T14:15:46+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/filter-coffee-classic-kaapi"/>
+    <title>Filter Coffee / Classic Kaapi</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/ClassicKaapi_1.jpg?v=1662562676"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1050.00
+            <a href="https://sleepyowl.co/products/filter-coffee-classic-kaapi">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>An authentic blend of Robusta and chicory makes a strong coffee concentrate without any equipment! </p>
+<!-- split --> 85% Robusta • 15% Chicory</td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>filtercoffee</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBCK</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBCK</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773685157935</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>3HBCK</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817428527</id>
+    <published>2021-10-11T14:15:39+05:30</published>
+    <updated>2021-10-11T14:15:39+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-original"/>
+    <title>Hot Brew Bags / Original</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Original_7.jpg?v=1662562637"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-original">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"Taste the natural chocolatey goodness of freshly roasted 100% Arabica beans with our Original Hot Brew. The distinct taste and aroma of our signature Hot Brew is unmatched. It is best enjoyed black and tastes equally good when you add milk to it and whip up a classic cappucino. "}'>Taste the natural chocolatey goodness of freshly roasted 100% Arabica beans with our Original Hot Brew. The distinct taste and aroma of our signature Hot Brew is unmatched. It is best enjoyed black and tastes equally good when you add milk to it and whip up a classic cappucino. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817428527</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBO</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817428527</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBO</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817428527</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBO</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817362991</id>
+    <published>2021-10-11T14:15:38+05:30</published>
+    <updated>2021-10-11T14:15:38+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-hazelnut"/>
+    <title>Hot Brew Bags / Hazelnut</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/HAzelnut_5.jpg?v=1662562336"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1050.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-hazelnut">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"Hazelnut is one of our most enjoyed coffee flavours amongst our Hot Brews. The nutty notes of hazelnut blend well with our well-rounded 100% Arabica coffee. Enjoy a cup of balanced, aromatic, and nutty-smooth coffee without the hassle. All you have to do is brew it in hot water for 5 minutes."}'>Hazelnut is one of our most enjoyed coffee flavours amongst our Hot Brews. The nutty notes of hazelnut hot brew blend well with our well-rounded 100% Arabica coffee. Enjoy a cup of balanced, aromatic, and nutty-smooth coffee without the hassle. All you have to do is brew it in hot water for 5 minutes.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817362991</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBH</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817362991</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBH</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817362991</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1050.00</s:price>
+      <s:sku>3HBH</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817330223</id>
+    <published>2021-10-11T14:15:38+05:30</published>
+    <updated>2021-10-11T14:15:38+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-french-vanilla"/>
+    <title>Hot Brew Bags / French Vanilla</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Fr.Vanilla.jpg?v=1662562487"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-french-vanilla">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"Our all-time favourite French Vanilla is the most fitting aromatic touch to our signature Hot Brew. The rich vanilla flavour offers its own sweet and aromatic taste to our bold Grade-A coffee beans. All you have to do is add hot water and brew it for a minimum of 5 minutes."}'>Our all-time favourite French Vanilla is the most fitting aromatic touch to our signature Hot Brew. The rich vanilla flavour offers its own sweet and aromatic taste to our bold Grade-A coffee beans. All you have to do is add hot water and brew it for a minimum of 5 minutes.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBV</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBV</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817330223</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBV</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817264687</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast"/>
+    <title>Hot Brew Bags / Dark Roast</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/DarkRoast_1.jpg?v=1662562512"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-dark-roast">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value='{"1":2,"2":"If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. "}'>If you like your regular cup of coffee stronger and bolder than our signature Original Hot Brew, then our bittersweet and toasty Dark Roast Hot Brew is for you. The decadent chocolatey flavour is enhanced through the intense roasting process, giving this cup of coffee a kick of extra caffienation. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBDR</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBDR</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817264687</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBDR</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817231919</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-cinnamon"/>
+    <title>Hot Brew Bags / Cinnamon</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Cinnamon_4.jpg?v=1662561945"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-cinnamon">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Enjoy a spiced cup of coffee? Our refreshing Cinnamon Hot Brew is everything you're looking for in an attempt to upgrade your regular cuppa joe. The sweet and woody hints of the cinnamon bark enhance the flavours of 100% Arabica coffee.  &quot;}">Enjoy a spiced cup of coffee? Our refreshing Cinnamon Hot Brew is everything you're looking for in an attempt to upgrade your regular cuppa joe. The sweet and woody hints of the cinnamon bark enhance the flavours of 100% Arabica coffee. </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817231919</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBC</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817231919</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBC</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817231919</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBC</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817199151</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-caramel"/>
+    <title>Hot Brew Bags / Caramel</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Caramel_1.jpg?v=1667197483"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-caramel">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">5 Minute Coffee</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;The buttery sweet Caramel is a great addition to our intense 100% Arabica coffee that offers its own undernotes of natural chocolatey taste. The blend offers a smooth and balanced cup without any bitterness. Whether you have it black or with a serving of frothed milk, this Caramel Hot Brew won't let you down! &quot;}">The buttery sweet Caramel is a great addition to our intense 100% Arabica coffee that offers its own undernotes of natural chocolatey taste. The blend offers a smooth and balanced cup without any bitterness. Whether you have it black or with a serving of frothed milk, this Caramel Hot Brew won't let you down! </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>_label_save 30%</s:tag>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817199151</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBCA</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817199151</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBCA</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817199151</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBCA</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/6772817166383</id>
+    <published>2021-10-11T14:15:37+05:30</published>
+    <updated>2021-10-11T14:15:37+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/hot-brew-coffee-bags-assorted"/>
+    <title>Hot Brew Bags / Assorted</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Assorted_2.jpg?v=1662562610"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/hot-brew-coffee-bags-assorted">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3><span class="text-red">Brew Bags</span></h3>
+<h3>Hot Coffee</h3>
+</div>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-userformat='{"2":961,"3":{"1":0},"9":1,"10":1,"11":4,"12":0}' data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Our Assorted Hot Brew box is for those who cannot pick between our classic bestsellers. Now don't choose and try our Original, Dark Roast, Hazelnut, Cinnamon, and French Vanilla flavours- all in one box! If you're looking for an assortment of all our flavoured bestsellers, then try our Flavour Bomb Hot Brew.&quot;}">Our Assorted Hot Brew box is for those who cannot pick between our classic bestsellers. Now don't choose and try our Original, Dark Roast, Hazelnut, Cinnamon, and French Vanilla flavours- all in one box! If you're looking for an assortment of all our flavoured bestsellers, then try our Flavour Bomb Hot Brew.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>_label_save 30%</s:tag>
+    <s:tag>brewbagsnew</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817166383</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBA</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817166383</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBA</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6772817166383</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBA</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4876784992303</id>
+    <published>2021-10-11T14:14:08+05:30</published>
+    <updated>2021-10-11T14:14:08+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/latte"/>
+    <title>Latte</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Latte_422ca96d-08f9-44e4-bb75-af29bc579d28.jpg?v=1662562589"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/latte">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Designed from scratch by our baristas to taste great with warm milk. A blend of select premium beans makes a strong and smooth Latte, in just 5 minutes.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBL</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBL</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBL</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+</feed>

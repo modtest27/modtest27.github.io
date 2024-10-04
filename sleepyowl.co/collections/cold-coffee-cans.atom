@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/cold-coffee-cans.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2024-02-16T11:46:40+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/9042544754987</id>
+    <published>2024-02-16T11:46:40+05:30</published>
+    <updated>2024-02-16T11:46:40+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/assorted-cold-coffee"/>
+    <title>Assorted Cold Coffee Cans</title>
+    <s:type>Ready To Drink</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Assortedcoldcoffeecan_v2.jpg?v=1708066047"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Ready To Drink<br>
+        <strong>Price: </strong>
+            500.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><meta charset="utf-8"><span data-mce-fragment="1">Enjoy our Ultimate Cold Coffee collection with four tasty flavors to cool you down in the summer heat. Each sip will refresh you and make your days more lively. Discover the joy of our assorted box containing four different flavors of Ultimate Cold Coffee.</span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/9042544754987</id>
+      <title>4 Cans</title>
+      <s:price currency="INR">500.00</s:price>
+      <s:sku>SOCCA230X4</s:sku>
+      <s:grams>1175</s:grams>
+    </s:variant>
+  </entry>
+</feed>

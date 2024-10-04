@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/instant_recurpay.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2022-03-11T12:56:28+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6903555850287</id>
+    <published>2022-03-11T12:56:28+05:30</published>
+    <updated>2022-03-11T12:56:28+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/instant-coffee-filter"/>
+    <title>Instant Filter Coffee</title>
+    <s:type>Instant Coffee</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/files/Filterkaapi100gjar.jpg?v=1710227543"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Instant Coffee<br>
+        <strong>Price: </strong>
+            375.00 - 1125.00
+            <a href="https://sleepyowl.co/products/instant-coffee-filter">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Authentic South Indian Kaapi, ready in seconds. Enjoy a traditional cup of nutty goodness from the comfort of your home. This filter instant coffee comes in an airtight container to ensure it stays fresh and dissolves in hot or cold water or milk seamlessly. Made with a blend of robusta and chicory, it’s undeniably Kaapi and unbelievably easy. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>1 Glass Jar</title>
+      <s:price currency="INR">375.00</s:price>
+      <s:sku>SOICCK</s:sku>
+      <s:grams>480</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>2 Glass Jars</title>
+      <s:price currency="INR">750.00</s:price>
+      <s:sku>2SOICCK</s:sku>
+      <s:grams>980</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6903555850287</id>
+      <title>3 Glass Jars</title>
+      <s:price currency="INR">1125.00</s:price>
+      <s:sku>3SOICCK</s:sku>
+      <s:grams>1440</s:grams>
+    </s:variant>
+  </entry>
+</feed>

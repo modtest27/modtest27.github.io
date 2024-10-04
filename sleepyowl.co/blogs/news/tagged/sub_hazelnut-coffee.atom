@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/blogs/news.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/blogs/news/tagged/sub_hazelnut-coffee.atom"/>
+  <title>Sleepy Owl Coffee - News</title>
+  <updated>2022-11-14T18:08:55+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/blogs/news/benefits-of-drinking-hazelnut-coffee</id>
+    <published>2022-06-17T17:53:23+05:30</published>
+    <updated>2022-06-20T19:17:51+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/blogs/news/benefits-of-drinking-hazelnut-coffee"/>
+    <title>Benefits Of Drinking Hazelnut Coffee</title>
+    <author>
+      <name>Sleepy Owl Coffee</name>
+    </author>
+    <content type="html">
+      <![CDATA[<p>Nutty, bold, sweet and oh-so-delicious! When it comes to flavoured coffee, there’s nothing like a rejuvenating cup or glass of hazelnut coffee.</p>]]>
+    </content>
+  </entry>
+</feed>

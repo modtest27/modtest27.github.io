@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://sleepyowl.co/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://sleepyowl.co/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://sleepyowl.co/collections/sleepy-owl-coffee.atom"/>
+  <title>Sleepy Owl Coffee</title>
+  <updated>2021-10-11T14:15:44+05:30</updated>
+  <author>
+    <name>Sleepy Owl Coffee</name>
+  </author>
+  <entry>
+    <id>https://sleepyowl.co/products/6773682896943</id>
+    <published>2021-10-11T14:15:44+05:30</published>
+    <updated>2021-10-11T14:15:44+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/cold-brew-bottle-sweet"/>
+    <title>Cold Brew Bottle / Sweet</title>
+    <s:type>Ready To Drink</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/SweetPackof5Combo02.jpg?v=1680091525"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Ready To Drink<br>
+        <strong>Price: </strong>
+            750.00 - 1500.00
+            <a href="https://sleepyowl.co/products/cold-brew-bottle-sweet">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="hot-brew-content">
+<h3>
+<span class="text-pelorous">The Bottle</span><br>Cold Brew Coffee</h3>
+</div>
+<p><span style="font-weight: 400;">This bottled Iced Coffee is made with milk and our signature Cold Brew, it has a little bit of sugar which gives it that sweet taste. It doesn’t have any additional preservatives and will surely refresh you on a hot day. Keep it in the fridge for a couple of hours before drinking it. The 200ml bottle is carefully shipped to ensure no breakage. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>coldbrewbottle</s:tag>
+    <s:tag>new2021products</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773682896943</id>
+      <title>12 Bottles (Case)</title>
+      <s:price currency="INR">1500.00</s:price>
+      <s:sku>12-RTD-Sweet</s:sku>
+      <s:grams>5500</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/6773682896943</id>
+      <title>6 Bottles</title>
+      <s:price currency="INR">750.00</s:price>
+      <s:sku>6-RTD-Sweet</s:sku>
+      <s:grams>5500</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4876784992303</id>
+    <published>2021-10-11T14:14:08+05:30</published>
+    <updated>2021-10-11T14:14:08+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/latte"/>
+    <title>Latte</title>
+    <s:type>Hot Brew</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Latte_422ca96d-08f9-44e4-bb75-af29bc579d28.jpg?v=1662562589"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>Hot Brew<br>
+        <strong>Price: </strong>
+            400.00 - 1200.00
+            <a href="https://sleepyowl.co/products/latte">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Designed from scratch by our baristas to taste great with warm milk. A blend of select premium beans makes a strong and smooth Latte, in just 5 minutes.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>10 Bags</title>
+      <s:price currency="INR">400.00</s:price>
+      <s:sku>1HBL</s:sku>
+      <s:grams>235</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>20 Bags</title>
+      <s:price currency="INR">800.00</s:price>
+      <s:sku>2HBL</s:sku>
+      <s:grams>470</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4876784992303</id>
+      <title>30 Bags</title>
+      <s:price currency="INR">1200.00</s:price>
+      <s:sku>3HBL</s:sku>
+      <s:grams>650</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://sleepyowl.co/products/4694769729583</id>
+    <published>2020-07-27T18:42:56+05:30</published>
+    <updated>2020-07-27T18:42:56+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://sleepyowl.co/products/ceramic-mug"/>
+    <title>Green Ceramic Mug</title>
+    <s:type>merchandise</s:type>
+    <s:vendor>Sleepy Owl Coffee</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1308/0907/products/Greenceramic_65846659-c10e-4e41-9e9f-1d5658701c5a.jpg?v=1646480565"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sleepy Owl Coffee<br>
+        <strong>Type: </strong>merchandise<br>
+        <strong>Price: </strong>
+            599.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span style="font-weight: 400;">Our Ceramic Mug is specially crafted by hand with ceramic by skilled artisans who use traditional crafting techniques. Each mug brings with it a unique character from the designing process. It is microwave friendly and perfect for your morning coffee. It’s available in two attractive colours for you to choose from. </span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Free Gift</s:tag>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Forest Green</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Green</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://sleepyowl.co/products/4694769729583</id>
+      <title>Classic Blue</title>
+      <s:price currency="INR">599.00</s:price>
+      <s:sku>1CM-Blue</s:sku>
+      <s:grams>525</s:grams>
+    </s:variant>
+  </entry>
+</feed>
